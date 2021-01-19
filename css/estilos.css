@@ -1,0 +1,13 @@
+.centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.columnas {
+	display: flex;
+}
+
+.columnas > div {
+  background: #fe00fe;
+    width: 50%;
+}

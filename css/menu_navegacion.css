@@ -89,6 +89,8 @@
 #menu-mobile ~ ul {
     display: none;
     margin: 0;
+    position: fixed;
+    top: 80px;
 }
 
 #menu-mobile:checked ~ ul {
@@ -123,7 +125,9 @@
     display: block;
     z-index: 5;
     background-color: #38383880;
-    padding: 1em;
+    padding: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
     line-height: 1.5em;
     width: 100%;
 }
@@ -131,7 +135,6 @@
 .dropdown-mobile > li > a {
     color: white;
     text-decoration: none;
-    padding-top: 0.5em;
 }
 
 .menu-izquierda {
@@ -141,6 +144,10 @@
 
 .menu-hamburguesa {
     display: block!important;
+    position: fixed;
+    top: 2.75em;
+    right: 2em;
+    z-index: 999;
 }
 
 @media all and (min-width: 600px) {

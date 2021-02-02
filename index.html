@@ -31,25 +31,20 @@
         </div>
 
         <!-- menu de navegacion-->
-        <header class="header">
+        <header class="header centrado">
             <div class="menu">
-                <div class="centrado">
+                <div class="menu-izquierda">
                     <a class="logo" href="index.html">
                         <img src="img/logo.png" width="48">
                     </a>
-                    <span class="bajada">EL SUSHI QUE ESTABAS ESPERANDO</span>
-                </div>
+                    <div class="bajada">EL SUSHI QUE ESTABAS ESPERANDO</div>
 
-                <nav class="navegacion-mobile" role="navigation">
-                    <a href="#"><i class="fas fa-bars"></i></a>
-                    <ul class="dropdown-mobile">
-                        <li><a href="#">MENU</a></li>
-                        <li><a href="#">COMBOS</a></li>
-                        <li><a href="#">PROMOS</a></li>
-                        <li><a href="#">SUSHI BOX</a></li>
-                        <li><a href="#">PEDIDOS</a></li>
-                    </ul>
-                </nav>
+                    <div class="menu-hamburguesa">
+                        <label for="menu-mobile">
+                            <i class="fas fa-bars"></i>
+                        </label>
+                    </div>
+                </div>
 
                 <nav class="navegacion-desktop" role="navigation">
                     <ul>
@@ -86,9 +81,20 @@
             </div>
         </header>
 
+        <nav class="navegacion-mobile" role="navigation">
+            <input type="checkbox" id="menu-mobile" />
+            <ul class="dropdown-mobile">
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">COMBOS</a></li>
+                <li><a href="#">PROMOS</a></li>
+                <li><a href="#">SUSHI BOX</a></li>
+                <li><a href="#">PEDIDOS</a></li>
+            </ul>
+        </nav>
+
         <!-- slider1-->
         <section class="centrado en-columna">
-            <div style="padding-top: 80px;">
+            <div>
                 <div class="owl-publicidad owl-carousel owl-theme">
                     <div class="publicidad publicidad-1">
                         <div class="carrusel"></div>

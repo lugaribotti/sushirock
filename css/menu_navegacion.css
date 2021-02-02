@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.navegacion > ul {
+    font-family: 'Comfortaa';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion > ul > li {
+    margin-left: 32px;
+}
+
+.navegacion > ul:last-child {
+    padding-right: 2em;
+}
+
+.navegacion > ul > li > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+}
+
+.navegacion > ul > li:focus-within > ul,
+.navegacion > ul > li:hover > ul {
+    display: block;
+    visibility: visible;
+}
+
+.navegacion > ul > li > a {
+    font-family: 'Comfortaa';
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.dropdown {
+    background: white;
+    z-index: -1;
+}
+
+.dropdown > li:first-child {
+    padding-top: 80px;
+}
+
+.dropdown > li > a {
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #383838;
+    padding: 0.5em;
+    width: 100%;
+    display: block;
+}
+
+.bajada {
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    justify-self: start;
+}
+
+.logo {
+    padding-right: 1em;
+    padding-left: 2em;
+}

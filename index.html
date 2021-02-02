@@ -4,15 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <title>SushiRock </title>
-    <meta name="viewport" content="with=device=with, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA/Compatible" content="ie=edge">
-    <script src="https://use.fontawesome.com/bfa2cb899f.js"></script>
-    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/6561e22216.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/delivery.css">
+    <link rel="stylesheet" href="css/botones.css">
+    <link rel="stylesheet" href="css/menu_navegacion.css">
+    <link rel="stylesheet" href="css/carruseles.css">
+    <link rel="stylesheet" href="css/owl-custom.css">
 </head>
 
 <body>
     <div class="padre">
+        <div class="whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=5491164965839" class="whatsapp" target="_blank"></a>
+        </div>
+
+        <!-- menu de navegacion-->
         <header class="header centrado">
             <div class="menu">
                 <div class="centrado">
@@ -20,7 +38,6 @@
                         <img src="img/logo.png" width="48">
                     </a>
                     <span class="bajada">EL SUSHI QUE ESTABAS ESPERANDO</span>
-
                 </div>
 
                 <nav class="navegacion" role="navigation">
@@ -58,80 +75,235 @@
             </div>
         </header>
 
-        <section class="publicidad">
-            <div class="carrusel"></div>
-            <div class="textoCarrusel">
-                <p class="texto-uno">20% OFF</p>
-                <p class="texto-dos">TAKE AWAY</p>
-                <a class="boton-rojo" href="#">NUESTRO MENÚ</a>
-            </div>
-        </section>
-
+        <!-- slider1-->
         <section class="centrado en-columna">
-            <p>· DESCUBRÍ NUESTRAS PROMOCIONES ·</p>
-            <hr style="width: 80%">
-            <div class="promo carrusel"></div>
-        </section>
+            <div style="padding-top: 80px;">
+                <div class="owl-publicidad owl-carousel owl-theme">
+                    <div class="publicidad publicidad-1">
+                        <div class="carrusel"></div>
+                        <div class="textoCarrusel">
+                            <p class="texto-uno">20% OFF</p>
+                            <p class="texto-dos">TAKE AWAY</p>
+                            <a class="boton-rojo" href="#">NUESTRO MENÚ</a>
+                        </div>
+                    </div>
 
-        <section class="centrado en-columna">
-            <hr style="width: 80%">
-            <p>SUSHI ROCK TIENE LAS PIEZAS MAS GRANDES Y SABROSAS</p>
-            <h4>¡MIRÁ NUESTRO MENÚ COMPLETO!</h4>
+                    <div class="publicidad publicidad-2">
+                        <div class="carrusel"></div>
+                        <div class="textoCarrusel">
+                            <p class="texto-uno">MARTES Y MIÉRCOLES</p>
+                            <p class="texto-dos">20%OFF</p>
+                            <p class="texto-dos">DELIVERY & TAKE AWAY</p>
+                            <a class="boton-rojo" href="#">NUESTRO MENÚ</a>
+                        </div>
+                    </div>
 
-            <div class="centrado imagen" style="height: 250px; width: 750px; background-size: cover; background-image: url(img/nuestro_menu.png)">
-                <a class="un-boton">NUESTRO MENÚ</a>
+                    <div class="publicidad publicidad-3">
+                        <div class="carrusel"></div>
+                        <div class="textoCarrusel">
+                            <p class="texto-uno">TODOS LOS DÍAS</p>
+                            <p class="texto-uno">LAS MEJORES</p>
+                            <p class="texto-dos">PROMOS PARA VOS</p>
+                            <a class="boton-rojo" href="#">NUESTRO MENÚ</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="container-puntitos centrado" id="publicidad-puntitos" style="margin-top: -3em; margin-bottom: 1em;"></div>
             </div>
 
-            <div class="centrado" style="height: 250px; width: 750px; background-size: cover; background-image: url(img/nuestro_combos.png)">
-                <a class="un-boton">NUESTROS COMBOS</a>
-            </div>
-
-            <p class="centrado">SUSHI ROCK EN CASA EN SÓLO 3 PASOS:</p>
-            <hr style="width: 80%">
-
-            <div class="centrado" style="height: 243px;
-            background-size: cover;
-            background: url('http://lorempixel.com/400/200/')  no-repeat center center"></div>
-        </section>
-
-        <section class="columnas">
-            <div>
+            <!-- slider promos-->
+            <section class="centrado en-columna">
+                <p>· DESCUBRÍ NUESTRAS PROMOCIONES ·</p>
+                <hr style="width: 80%">
                 <div>
-                    uno
+                    <div style="margin-bottom: 2em; margin-top: 1em" class="centrado">
+                        <div class="owl-promo owl-carousel owl-theme" style="margin: auto; width: 800px">
+                            <div><img src="img/promo1.png" alt="Promo1"></div>
+                            <div><img src="img/promo2.png" alt="Promo2"></div>
+                            <div><img src="img/promo3.png" alt="Promo3"></div>
+                            <div><img src="img/promo4.png" alt="Promo4"></div>
+                        </div>
+                    </div>
+                    <div class="container-puntitos centrado" id="promo-puntitos"></div>
                 </div>
-                <div>
-                    dos
-                </div>
-                <div>
-                    tres
-                </div>
-                <div>
-                    cuatro
-                </div>
-            </div>
+            </section>
 
-            <div>
-                <div>imagen peces</div>
-                <div class="columnas">
-                    <div>dias y horarios</div>
-                    <div>nuestros teléfonos</div>
+
+            <!-- <section class="centrado en-columna">
+
+            <div class="slider centrado-vertical" style="height: 250px; width: 750px">
+                <ul>
+                    <li><img src="img/promo1.png" alt="Promo1"></li>
+                    <li><img src="img/promo2.png" alt="Promo2"></li>
+                    <li><img src="img/promo3.png" alt="Promo3"></li>
+                    <li><img src="img/promo4.png" alt="Promo4"></li>
+                </ul>
+            </div>
+        </section>-->
+
+            <!-- Nuestros combos/menu-->
+            <section class="centrado en-columna">
+                <hr style="width: 80%">
+                <p>SUSHI ROCK TIENE LAS PIEZAS MAS GRANDES Y SABROSAS</p>
+                <strong>¡MIRÁ NUESTRO MENÚ COMPLETO!</strong>
+
+                <a class="centrado imagen-menu" style="height: 250px; width: 750px">
+                    <p class="un-boton">NUESTRO MENÚ</p>
+                </a>
+
+                <div class="centrado imagen-combo" style="height: 250px; width: 750px">
+                    <a class="un-boton">NUESTROS COMBOS</a>
                 </div>
-            </div>
-        </section>
 
-        <section class="centrado">
-            <div style="width: auto">
-                <p>CONOCÉ NUESTRO LOCAL</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7086691684563!2d-58.43439448522348!3d-34.611527665417526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca69d0bf3753%3A0xc6cb84b318f3d635!2sAv.%20Avellaneda%20133%2C%20C1405CNB%20CABA!5e0!3m2!1ses!2sar!4v1611087980765!5m2!1ses!2sar" width="749" height="198" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-        </section>
+                <!-- slidersushiRock-->
+                <div class="centrado">
+                    <p><strong>SUSHI ROCK</strong> EN CASA EN SÓLO 3 PASOS:</p>
+                </div>
+                <hr style="width: 80%">
+                <div class="rockbox" style="height: 220px; width: 750px"></div>
+            </section>
 
-        <footer class="columnas">
-            <p>© 2021 Sushi Rock</p>
-            <i class="fab fa-facebook"></i>
-            <p>© 2021 Sushi Rock</p>
-        </footer>
+            <!-- Delivery y contacto-->
+            <section class="columnas delivery">
+                <div class="al-50">
+                    <div class="columnas centrado-vertical">
+                        <div class="icono-container">
+                            <div class="icono-delivery icono-sushi"></div>
+                        </div>
+                        <div>
+                            <p class="bold-grande">EL DELIVERY DE SUSHI</p>
+                            <p class="titulos-bold">QUE ESTABAS ESPERANDO</p>
+                        </div>
+                    </div>
+
+                    <div class="columnas centrado-vertical">
+                        <div class="icono-container">
+                            <div class="icono-delivery icono-wsp"></div>
+                        </div>
+                        <div style="flex: 1">
+                            <p class="bullet">· Mandanos un Whatsapp</p>
+                            <p><a href="https://api.whatsapp.com/send?phone=5491164965839" class="bullet click" target="_blank"> <i class="fas fa-hand-point-right"></i> Click aquí</a></p>
+                        </div>
+                    </div>
+
+                    <div class="columnas centrado-vertical">
+                        <div class="icono-container">
+                            <div class="icono-delivery icono-pedido"></div>
+                        </div>
+                        <div>
+                            <p class="bullet">· Listo, tu pedido ya se está preparando.....</p>
+                            <p class="chiquito"> En aproximadamente 45 min. el pedido va hacer entregado. </p>
+                        </div>
+                    </div>
+
+                    <div class="columnas centrado-vertical">
+                        <div class="icono-container">
+                            <div class="icono-delivery icono-disfruta"></div>
+                        </div>
+                        <p class="bullet">· Sentate y disfrutá del mejor SUSHI</p>
+                    </div>
+
+                </div>
+
+                <div class="al-50">
+                    <div class="centrado">
+                        <img src="img/KOI.png" ; style="height: 190px">
+                    </div>
+                    <div class="columnas" style="font-size: 12px; margin-top: 1em">
+                        <div class="al-50">
+                            <div class="columnas centrado-vertical">
+                                <img src="img/ico-horario.png" width="32">
+                                <p class="titulos-bold">Días y horarios:</p>
+                            </div>
+                            <div class="indentado-32">
+                                <p>Martes a Domingos</p>
+                                <p>de 17:00 a 23:00 hs.</p>
+                                <p>Take away y Delivery </p>
+                            </div>
+
+                        </div>
+                        <div class="al-50">
+                            <div class="columnas centrado-vertical">
+                                <img src="img/ico-rolls.png" width="32">
+                                <p class="titulos-bold">Pedidos:</p>
+                            </div>
+
+                            <div class="columnas centrado-vertical indentado-32" style="padding-bottom: 0.75em">
+                                <img src="img/ico-telefono.png" width="16">
+                                <p style="padding-left: 0.25em;">+54 11 49582828</p>
+                            </div>
+
+                            <div class="columnas centrado-vertical indentado-32">
+                                <img src="img/ico-wsp.png" width="16">
+                                <p style="padding-left: 0.25em">+54 9 11 6496-5839</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mapa-->
+            <section class="centrado">
+                <div style="width: auto">
+                    <p><strong>CONOCÉ NUESTRO LOCAL</strong></p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7086691684563!2d-58.43439448522348!3d-34.611527665417526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca69d0bf3753%3A0xc6cb84b318f3d635!2sAv.%20Avellaneda%20133%2C%20C1405CNB%20CABA!5e0!3m2!1ses!2sar!4v1611087980765!5m2!1ses!2sar" width="749" height="198" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </section>
+
+            <!-- Footer-->
+            <footer class="columnas centrado">
+                <p class="copy">© 2021 Sushi Rock</p>
+                <a href="https://www.instagram.com/sushirockbsas/" class="ig" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/sushirockcatering/" class="fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="https://api.whatsapp.com/send?phone=5491164965839" class="wsp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <p class="copy">© 2021 Sushi Rock</p>
+            </footer>
     </div>
+
+
 </body>
+
+
+<script>
+    $(document).ready(function() {
+        $(".owl-promo").owlCarousel({
+            items: 1,
+            loop: true,
+            dots: true,
+            dotsEach: true,
+            autoplay: true,
+            nav: true,
+            center: true,
+            dotsContainer: '#promo-puntitos',
+            autoplayHoverPause: true,
+            autoplayTimeout: 5000,
+            slideSpeed: 2000,
+            paginationSpeed: 2000,
+            autoplaySpeed: 2000,
+        });
+
+        $(".owl-publicidad").owlCarousel({
+            items: 1,
+            loop: true,
+            dots: true,
+            dotsEach: true,
+            autoplay: true,
+            nav: true,
+            center: true,
+            dotsContainer: '#publicidad-puntitos',
+            autoplayHoverPause: true,
+            autoplayTimeout: 5000,
+            slideSpeed: 2000,
+            paginationSpeed: 2000,
+            autoplaySpeed: 2000
+        });
+
+        $('html, body').animate( { scrollTop : 0 }, 800 );
+    });
+
+</script>
 
 </html>

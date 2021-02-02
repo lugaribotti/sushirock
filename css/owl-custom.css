@@ -1,0 +1,60 @@
+.owl-prev {
+    font-size: 32px !important;
+    width: 15px;
+    height: 80px;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    left: 0.25em;
+    display: block !important;
+    border: 0px solid black;
+    color: white !important;
+}
+
+.owl-next {
+    font-size: 32px !important;
+    width: 15px;
+    height: 80px;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    right: 0.25em;
+    display: block !important;
+    border: 0px solid black;
+    color: white !important;
+}
+
+.owl-prev i,
+.owl-next i {
+    transform: scale(1, 6);
+    color: #ccc;
+}
+
+.container-puntitos {
+    position: relative;
+    margin-top: -4em;
+    z-index: 2;
+    margin-bottom: 4em;
+}
+
+.owl-dot {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.owl-dot > span {
+    display: inline-block;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: #aaa;
+    border: none;
+    transition: all 2s;
+}
+
+.owl-dot.active > span {
+    background-color: white;
+}

@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Montserrat';
+    font-size: 17px;
     margin: 0;
     width: 800px;
     margin-left: calc((100vw - 800px) / 2);
@@ -20,6 +21,17 @@ header {
     top: 0;
 }
 
+strong {
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: -1em;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .centrado {
     display: flex;
     align-items: center;
@@ -30,109 +42,36 @@ header {
     width: 100%;
 }
 
-.columnas {
-    display: flex;
+.centrado-vertical {
+    align-items: center;
 }
 
-.columnas > div {
-    background: #fe00fe;
-    width: 50%;
+.centrado > p {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.columnas {
+    display: flex;
 }
 
 .en-columna {
     flex-direction: column;
 }
 
-.navegacion > ul {
-    font-family: 'Comfortaa';
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.navegacion > ul > li {
-    margin-left: 32px;
-}
-
-.navegacion > ul:last-child {
-    padding-right: 2em;
-}
-
-.navegacion > ul > li > ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: none;
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-}
-
-.navegacion > ul > li:focus-within > ul,
-.navegacion > ul > li:hover > ul {
-    display: block;
-    visibility: visible;
-}
-
-.navegacion > ul > li > a {
-    font-family: 'Comfortaa';
-    font-size: 12px;
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 3;
-}
-
-.dropdown {
-    background: white;
-    z-index: -1;
-   }
-
-.dropdown > li:first-child {
-    padding-top: 80px;
-}
-
-.dropdown > li > a{
-    font-size: 10px;
-    color: white;
-    text-decoration: none;
-    background-color: #383838;
-    padding: 0.5em;
-    width:100%;
-    display: block;
-}
-
-.bajada {
-    font-size: 11px;
-    margin: 0;
-    padding: 0;
-    justify-self: start;
-}
-
-.logo {
-    padding-right: 1em;
-    padding-left: 2em;
-}
-
 .publicidad {
     position: relative;
-    height: 280px;
+    height: 300px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background: grey;
-    margin-top: 80px;
+    margin-bottom: 1em;
+    background-image: url("../img/inicio_1.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .publicidad.carrusel {
@@ -140,7 +79,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    height: 280px;
+    height: 300px;
     width: 100%;
 }
 
@@ -168,53 +107,69 @@ header {
 
 }
 
-.un-boton {
-    font-weight: bold;
-    color: white;
-    border: 1px solid white;
-    padding: 1em;
-}
-
-.un-boton:hover {
-    background: transparent;
-    color: black;
-    border: 1px solid black;
-}
-
-.boton-rojo {
-    text-shadow: 2px 2px 4px #565656;
-    text-decoration: none;
-}
-
-.boton-rojo:visited {
-    background: transparent;
-    color: white;
-    border: 1px solid white;
-    padding: 0.5em;
-}
-
-.boton-rojo:link {
-    background: transparent;
-    color: white;
-    border: 1px solid white;
-    padding: 0.5em;
-}
-
-.boton-rojo:active {
-    background: #af181b;
-    color: white;
-    border: 1px solid #af181b;
-    padding: 0.5em;
-}
-
-.boton-rojo:hover {
-    background: #af181b;
-    color: white;
-    border: 1px solid #af181b;
-    padding: 0.5em;
+.texto-tres{
+    font-size: 12px;
 }
 
 .promo {
-    height: 243px;
+    height: 250px;
     background: green;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.imagen-menu {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background-image: url(../img/nuestro_menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.6;
+    transition-property: all;
+    transition-duration: 1.2s;
+}
+
+.imagen-menu:hover {
+    opacity: 1;
+    background-size: 110%;
+}
+
+.imagen-combo {
+    margin-bottom: 1em;
+    margin-top: 0;
+    background-image: url(../img/nuestro_combos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.6;
+    transition-property: all;
+    transition-duration: 1.2s;
+}
+
+.imagen-combo:hover {
+    opacity: 1;
+    background-size: 110%;
+}
+
+.prueba {
+    background-image: url("../img/inicio_1.png");
+    /* The image used */
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 200px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.copy {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
 }

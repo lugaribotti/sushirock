@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+section.delivery {
+  background: #EEEEEE;
+}
+
+.al-50{
+    width: 50%;
+}
+
+.delivery > div {
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: transparent;
+}
+
+.delivery > div:last-child  {
+    padding-right: 2em;
+}
+
+
+.delivery p {
+    margin: 0;
+    padding: 0;
+}
+
+.icono-container {
+    max-width: 72px;
+}
+
+.icono-delivery {
+    height: 72px;
+    width: 72px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width: 72px;
+}
+
+.icono-sushi {
+    background-image: url('../img/logo_chico.png');
+    background-size: 64px 64px;
+}
+
+.icono-wsp {
+    background-image: url(../img/celular.png);
+    background-size: contain;
+}
+
+.icono-pedido {
+    background-image: url(../img/preparacion.png);
+    background-size: contain;
+}
+
+.icono-disfruta {
+    background-image: url(../img/disfruta.png);
+    background-size: contain;
+}
+
+.bullet{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.chiquito{
+    font-size: 10px;
+
+}
+
+.ico-pedidos {
+    background-image: url(../img/ico-rolls.png);
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position:left;
+
+}
+
+.indentado-32{
+    padding-left: 32px;
+}
+
+.titulos-bold{
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.bold-grande{
+    font-weight: bold;
+    font-size: 20px;
+}

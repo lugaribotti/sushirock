@@ -59,64 +59,6 @@ hr {
     flex-direction: column;
 }
 
-.publicidad {
-    position: relative;
-    height: 300px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 1em;
-    background-image: url("../img/inicio_1.png");
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.publicidad.carrusel {
-    clear: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 300px;
-    width: 100%;
-}
-
-.textoCarrusel {
-    padding-left: 2em;
-    z-index: 2;
-    text-align: center;
-}
-
-.texto-uno {
-    font-size: 33px;
-    font-weight: 500;
-    text-shadow: 2px 2px 4px #565656;
-    color: white;
-    margin: 0;
-}
-
-.texto-dos {
-    font-size: 35px;
-    font-weight: 400;
-    text-shadow: 2px 2px 4px #565656;
-    color: white;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-
-}
-
-.texto-tres{
-    font-size: 12px;
-}
-
-.promo {
-    height: 250px;
-    background: green;
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
 
 .imagen-menu {
     margin-bottom: 1em;
@@ -152,24 +94,82 @@ hr {
     background-size: 110%;
 }
 
-.prueba {
-    background-image: url("../img/inicio_1.png");
-    /* The image used */
-    background-color: #cccccc;
-    /* Used if the image is unavailable */
-    height: 200px;
-    /* You must set a specified height */
-    background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: cover;
-    /* Resize the background image to cover the entire container */
-}
-
 .copy {
     font-family: 'Montserrat';
     font-size: 14px;
     text-align: center;
     font-weight: 500;
+}
+
+.nuestras-promos > hr {
+    width: 80%;
+}
+
+.en-tres-pasos {
+    margin: 0;
+    padding: 0;
+}
+
+.en-tres-pasos > hr {
+    width: 80%;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 15px;
+    }
+
+    strong {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+
+    strong {
+        font-size: 12px;
+    }
+
+    .nuestras-promos > p {
+        font-size: 16px;
+        padding: 0;
+        margin: 0.5em;
+    }
+
+    .nuestras-promos > hr {
+        width: 45%;
+    }
+
+    .nuestro-menu > hr {
+        display: none;
+        margin-top: -3em;
+    }
+
+    .nuestro-menu > p {
+        margin-top: -3em;
+        padding: 0.25em;
+    }
+
+    .en-tres-pasos {
+        margin: 0;
+        padding: 0;
+    }
+
+    .en-tres-pasos > hr {
+        margin-top: 0;
+        margin-bottom: 0.5em;
+        padding: 0;
+        width: 45%;
+    }
+
+    .en-tres-pasos > p {
+        padding: 0;
+        margin-bottom: 0.5em;
+        margin-top: 0;
+    }
+
 }

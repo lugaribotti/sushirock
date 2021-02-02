@@ -91,9 +91,9 @@
                     <div class="publicidad publicidad-2">
                         <div class="carrusel"></div>
                         <div class="textoCarrusel">
-                            <p class="texto-uno">MARTES Y MIÉRCOLES</p>
-                            <p class="texto-dos">20%OFF</p>
-                            <p class="texto-dos">DELIVERY & TAKE AWAY</p>
+                            <p class="texto-tres">MARTES Y MIÉRCOLES</p>
+                            <p class="texto-cuatro">20%OFF</p>
+                            <p class="texto-cinco">DELIVERY & TAKE AWAY</p>
                             <a class="boton-rojo" href="#">NUESTRO MENÚ</a>
                         </div>
                     </div>
@@ -101,9 +101,9 @@
                     <div class="publicidad publicidad-3">
                         <div class="carrusel"></div>
                         <div class="textoCarrusel">
-                            <p class="texto-uno">TODOS LOS DÍAS</p>
-                            <p class="texto-uno">LAS MEJORES</p>
-                            <p class="texto-dos">PROMOS PARA VOS</p>
+                            <p class="texto-seis">TODOS LOS DÍAS</p>
+                            <p class="texto-seis">LAS MEJORES</p>
+                            <p class="texto-siete">PROMOS PARA VOS</p>
                             <a class="boton-rojo" href="#">NUESTRO MENÚ</a>
                         </div>
                     </div>
@@ -112,13 +112,12 @@
 
                 <div class="container-puntitos centrado" id="publicidad-puntitos" style="margin-top: -3em; margin-bottom: 1em;"></div>
             </div>
-
             <!-- slider promos-->
-            <section class="centrado en-columna">
+            <section class="centrado en-columna nuestras-promos">
                 <p>· DESCUBRÍ NUESTRAS PROMOCIONES ·</p>
                 <hr style="width: 80%">
                 <div>
-                    <div style="margin-bottom: 2em; margin-top: 1em" class="centrado">
+                    <div style=" margin-bottom: 2em; margin-top: 1em" class="centrado">
                         <div class="owl-promo owl-carousel owl-theme" style="margin: auto; width: 800px">
                             <div><img src="img/promo1.png" alt="Promo1"></div>
                             <div><img src="img/promo2.png" alt="Promo2"></div>
@@ -144,8 +143,8 @@
         </section>-->
 
             <!-- Nuestros combos/menu-->
-            <section class="centrado en-columna">
-                <hr style="width: 80%">
+            <section class="centrado en-columna nuestro-menu">
+                <hr style="width: 80%; margin-top: -2.5em">
                 <p>SUSHI ROCK TIENE LAS PIEZAS MAS GRANDES Y SABROSAS</p>
                 <strong>¡MIRÁ NUESTRO MENÚ COMPLETO!</strong>
 
@@ -156,12 +155,15 @@
                 <div class="centrado imagen-combo" style="height: 250px; width: 750px">
                     <a class="un-boton">NUESTROS COMBOS</a>
                 </div>
+            </section>
 
-                <!-- slidersushiRock-->
-                <div class="centrado">
+            <!-- slidersushiRock-->
+            <section class="centrado en-columna">
+                <div class="centrado en-columna en-tres-pasos">
                     <p><strong>SUSHI ROCK</strong> EN CASA EN SÓLO 3 PASOS:</p>
+                    <hr>
                 </div>
-                <hr style="width: 80%">
+
                 <div class="rockbox" style="height: 220px; width: 750px"></div>
             </section>
 
@@ -301,7 +303,9 @@
             autoplaySpeed: 2000
         });
 
-        $('html, body').animate( { scrollTop : 0 }, 800 );
+        $('html, body').animate({
+            scrollTop: 0
+        }, 800);
     });
 
 </script>

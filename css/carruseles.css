@@ -1,6 +1,119 @@
+.publicidad {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1em;}
+
+.publicidad-1{
+    background-image: url("../img/inicio_1.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.publicidad-2{
+    background-image: url("../img/inicio_2.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.publicidad-3{
+    background-image: url("../img/inicio_3.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.publicidad.carrusel {
+    clear: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+}
+
+.textoCarrusel {
+    padding-left: 2em;
+    z-index: 2;
+    text-align: center;
+}
+
+.texto-uno {
+    font-size: 33px;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #565656;
+    color: white;
+    margin: 0;
+}
+
+.texto-dos {
+    font-size: 35px;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px #565656;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+
+}
+
+.texto-tres {
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #565656;
+    color: white;
+    margin: 0;
+}
+
+.texto-cuatro {
+    font-size: 35px;
+    text-shadow: 2px 2px 4px #565656;
+    color: white;
+    margin: 0;
+
+}
+
+.texto-cinco {
+    font-size: 12px;
+    text-shadow: 2px 2px 4px #565656;
+    color: white;
+    margin-bottom: 1.7em;
+    margin-top: 0;
+    padding: 0;
+
+}
+
+.texto-seis {
+    font-size: 16px;
+    text-shadow: 2px 2px 4px #565656;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0.15em;
+}
+
+.texto-siete {
+    font-size: 16px;
+    text-shadow: 2px 2px 4px #565656;
+    color: white;
+    margin-bottom: 1.2em;
+    margin-top: 0.15em;
+    padding: 0;
+}
+
+
+.promo {
+    height: 250px;
+    background: green;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
 .rockbox {
     height: 220px;
-    background: green;
     margin-bottom: 1em;
     margin-top: 1em;
     background-image: url(../img/Sushi-rock-box.png);
@@ -9,7 +122,15 @@
     background-size: cover;
 }
 
-.slider {
+@media all and (max-width: 600px){
+    .rockbox{
+        margin-top: 0.75em;
+    }
+
+
+}
+
+/*.slider {
     width: 100%;
     height: 250px;
     overflow: hidden;
@@ -77,4 +198,4 @@
     100% {
         margin-left: 0%;
     }
-}
+}*/

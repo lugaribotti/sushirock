@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 section.delivery {
-  background: #EEEEEE;
+    background-image: url(../img/fondo-contacto.png);
+    background-size: cover;
 }
 
-.al-50{
+.al-50 {
     width: 50%;
 }
 
@@ -16,7 +17,7 @@ section.delivery {
     background: transparent;
 }
 
-.delivery > div:last-child  {
+.delivery > div:last-child {
     padding-right: 2em;
 }
 
@@ -58,12 +59,12 @@ section.delivery {
     background-size: contain;
 }
 
-.bullet{
+.bullet {
     font-size: 12px;
     font-weight: bold;
 }
 
-.chiquito{
+.chiquito {
     font-size: 10px;
 
 }
@@ -72,21 +73,21 @@ section.delivery {
     background-image: url(../img/ico-rolls.png);
     background-size: 32px;
     background-repeat: no-repeat;
-    background-position:left;
+    background-position: left;
 
 }
 
-.indentado-32{
+.indentado-32 {
     padding-left: 32px;
 }
 
-.titulos-bold{
+.titulos-bold {
     font-weight: bold;
     font-size: 14px;
 
 }
 
-.bold-grande{
+.bold-grande {
     font-weight: bold;
     font-size: 20px;
 }

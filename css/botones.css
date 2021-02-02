@@ -65,7 +65,7 @@
     width: 64px;
     background-color: transparent;
     background-repeat: no-repeat;
-    z-index: 2;
+    z-index: 100;
     background-image: url(../img/ico-WhatsApp.png);
     background-size: contain;
     cursor: pointer;
@@ -100,5 +100,37 @@
 .click{
     text-decoration: none;
     color: black;
+}
+
+@media all and (max-width: 600px){
+    .ig,.fb,.wsp {
+    font-size: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    margin-left: 1em;
+    margin-right: 0.2em;
+    background-size: 16px;
+    border-radius: 16px;
+    height: 16px;
+    width: 16px;
+    background-color: #494d56;
+    line-height: 16px;
+}
+
+    .fb {
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+.wsp {
+    margin-left: 0.2em;
+    margin-right: 1em;
+}
 
 }
+
+
+
+

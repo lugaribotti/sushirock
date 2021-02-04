@@ -5,23 +5,26 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 1em;}
+    margin-bottom: 1em;
+}
 
-.publicidad-1{
+.publicidad-1 {
     background-image: url("../img/inicio_1.png");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.publicidad-2{
+
+.publicidad-2 {
     background-image: url("../img/inicio_2.png");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.publicidad-3{
+
+.publicidad-3 {
     background-image: url("../img/inicio_3.png");
     background-color: #cccccc;
     background-position: center;
@@ -104,7 +107,6 @@
     padding: 0;
 }
 
-
 .promo {
     height: 250px;
     background: green;
@@ -112,92 +114,132 @@
     margin-top: 1em;
 }
 
+.contenedor-promos {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.promos-1 {
+    height: 250px;
+    background-image: url("../img/promo1.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promos-2 {
+    height: 250px;
+    background-image: url("../img/promo2.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promos-3 {
+    height: 250px;
+    background-image: url("../img/promo3.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promos-4 {
+    height: 250px;
+    background-image: url("../img/promo4.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textoPromos {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-content: center;
+    min-height: 250px;
+}
+
 .rockbox {
-    height: 220px;
     width: 100%;
+    min-height: calc(100vw / 3.40);
+    max-width: 750px;
     margin-bottom: 1em;
     margin-top: 0.5em;
     background-image: url(../img/Sushi-rock-box.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
-@media all and (max-width: 600px){
-    .rockbox{
-        margin-top: 0.25em;
-        width: 50%;
+@media all and (max-width: 600px) {
+    .contenedor-promos {
+        padding-left: 0;
+        padding-right: 0;
     }
 
+    .textoCarrusel > div {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
 
+    .publicidad {
+        justify-content: center;
+    }
+
+    .promos-1 {
+        height: 160px;
+        width: 100vw;
+        background-image: url("../img/promo1.png");
+        background-color: #cccccc;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .promos-2 {
+        height: 160px;
+        width: 100vw;
+        background-image: url("../img/promo2.png");
+        background-color: #cccccc;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .promos-3 {
+        height: 160px;
+        width: 100vw;
+        background-image: url("../img/promo3.png");
+        background-color: #cccccc;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .promos-4 {
+        height: 160px;
+        width: 100vw;
+        background-image: url("../img/promo4.png");
+        background-color: #cccccc;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
-/*.slider {
-    width: 100%;
-    height: 250px;
-    overflow: hidden;
-    background: green;
-    margin-top: 1em;
-    margin-bottom: 1em;
+@media all and (max-width: 400px) {
+    .textoPromos {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-content: center;
+        min-height: 150px;
+        height: 150px;
+    }
 }
-
-.slider ul {
-    display: flex;
-    animation: cambio 20s infinite;
-    width: 400%;
-    margin: 0;
-    padding: 0;
-}
-
-.slider li {
-    width: 100%;
-    list-style: none;
-}
-
-.slider img {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-}
-
-@keyframes cambio {
-    0% {
-        margin-left: 0%;
-    }
-
-    20% {
-        margin-left: 0%;
-    }
-
-    25% {
-        margin-left: -100%;
-    }
-
-    45% {
-        margin-left: -100%;
-    }
-
-    50% {
-        margin-left: -200%;
-    }
-
-    65% {
-        margin-left: -200%;
-    }
-
-    70% {
-        margin-left: -300%;
-    }
-
-    85% {
-        margin-left: -300%;
-    }
-
-    100% {
-        margin-left: 0%;
-    }
-}*/

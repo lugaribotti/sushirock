@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 section.delivery {
-    background-image: url(../img/fondo-contacto.png);
-    background-size: cover;
+    background: #eeeeee;
 }
 
 .al-50 {
@@ -11,7 +10,6 @@ section.delivery {
 }
 
 .delivery > div {
-    padding-left: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
     background: transparent;
@@ -84,10 +82,69 @@ section.delivery {
 .titulos-bold {
     font-weight: bold;
     font-size: 14px;
-
 }
 
 .bold-grande {
     font-weight: bold;
     font-size: 20px;
+}
+
+.FondoDatos-mobile {
+    display: none;
+}
+
+@media all and (max-width: 600px) {
+
+    .delivery {
+        display: none;
+    }
+
+    .FondoDatos-mobile {
+        background-color: #eeeeee;
+        background-image: url(../img/KOI.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100vw;
+        padding-bottom: 2em;
+    }
+
+    .FondoDatos-mobile p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .delivery-mobile {
+        padding-left: 6em;
+    }
+
+    .titulos-bold {
+        font-weight: bold;
+        font-size: 12px;
+        padding-top: 2em;
+        padding-bottom: -2em;
+        margin: 0;
+
+    }
+
+    .titulos-bold {
+        margin: 0;
+        padding: 0;
+    }
+
+    .ico-marker {
+        font-size: 24px;
+        color: black;
+        margin: 0;
+    }
+
+    .indentado-32 > p {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }

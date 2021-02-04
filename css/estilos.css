@@ -47,6 +47,10 @@ hr {
     align-items: center;
 }
 
+centrado-horizontal{
+    justify-items:flex-start;
+}
+
 .centrado > p {
     margin-bottom: 1em;
     margin-top: 1em;
@@ -104,6 +108,12 @@ hr {
 
 .nuestras-promos > hr {
     width: 80%;
+    margin-bottom: 1em;
+}
+
+.nuestro-menu > hr {
+    margin-top: 0.5em;
+    width: 80%;
 }
 
 .en-tres-pasos {
@@ -147,11 +157,10 @@ hr {
 
     .nuestro-menu > hr {
         display: none;
-        margin-top: -3em;
     }
 
     .nuestro-menu > p {
-        margin-top: -3em;
+        margin-top: 0.25em;
         padding: 0.25em;
     }
 
@@ -173,7 +182,7 @@ hr {
         margin-top: 0;
     }
 
-    .copy{
+    .copy {
         font-size: 12px;
     }
 
@@ -182,3 +191,17 @@ hr {
 .padre {
     padding-top: 80px;
 }
+
+.gradiente-derecha {
+    background: linear-gradient(90deg, #777, transparent);
+}
+
+.gradiente-izquierda {
+    background: linear-gradient(-90deg, #777, transparent);
+}
+
+.centrado-horizontal {
+    display: flex;
+    align-items: center;
+}
+

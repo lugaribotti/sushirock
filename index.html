@@ -40,7 +40,7 @@
                 <nav class="navegacion-desktop" role="navigation">
                     <ul>
                         <li><a href="#">INICIO</a></li>
-                        <li><a href="#">MENÚ</a>
+                        <li><a href="#Menu">MENÚ</a>
                             <ul class="dropdown">
                                 <li><a href="#">ENTRADAS</a></li>
                                 <li><a href="#">SUSHIS</a></li>
@@ -50,7 +50,7 @@
                                 <li><a href="#">POSTRES</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">PROMOS</a>
+                        <li><a href="#Promos">PROMOS</a>
                             <ul class="dropdown">
                                 <li><a href="#">PROMO 1</a></li>
                                 <li><a href="#">PROMO 2</a></li>
@@ -58,7 +58,7 @@
                                 <li><a href="#">PROMO 4</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">COMBOS</a>
+                        <li><a href="#Combos">COMBOS</a>
                             <ul class="dropdown">
                                 <li><a href="#">SANTANA</a></li>
                                 <li><a href="#">HENDRIX</a></li>
@@ -66,7 +66,7 @@
                                 <li><a href="#">RIFF</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">CONTACTO</a></li>
+                        <li><a href="#Contacto">CONTACTO</a></li>
                     </ul>
                 </nav>
             </div>
@@ -81,11 +81,11 @@
         <nav class="navegacion-mobile" role="navigation">
             <input type="checkbox" id="menu-mobile" />
             <ul class="dropdown-mobile">
-                <li><a href="#">MENU</a></li>
-                <li><a href="#">COMBOS</a></li>
-                <li><a href="#">PROMOS</a></li>
-                <li><a href="#">SUSHI BOX</a></li>
-                <li><a href="#">PEDIDOS</a></li>
+                <li><a href="#Menu">MENU</a></li>
+                <li><a href="#Combos">COMBOS</a></li>
+                <li><a href="#Promos">PROMOS</a></li>
+                <li><a href="#Box">SUSHI BOX</a></li>
+                <li><a href="#Contacto">PEDIDOS</a></li>
             </ul>
         </nav>
 
@@ -98,7 +98,10 @@
                         <div class="textoCarrusel">
                             <p class="texto-uno">20% OFF</p>
                             <p class="texto-dos">TAKE AWAY</p>
-                            <a class="boton-rojo" href="#">NUESTRO MENÚ</a>
+                            <div>
+                                <a class="boton-rojo" href="#">NUESTRO MENÚ</a>
+                            </div>
+
                         </div>
                     </div>
 
@@ -118,33 +121,79 @@
                             <p class="texto-seis">TODOS LOS DÍAS</p>
                             <p class="texto-seis">LAS MEJORES</p>
                             <p class="texto-siete">PROMOS PARA VOS</p>
-                            <a class="boton-rojo" href="#">NUESTRO MENÚ</a>
+                            <a class="boton-rojo" href="#">VER PROMOS</a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="container-puntitos centrado" id="publicidad-puntitos" style="margin-top: -3em; margin-bottom: 1em;"></div>
             </div>
-            <!-- slider promos-->
-            <section class="centrado en-columna nuestras-promos">
-                <p>· DESCUBRÍ NUESTRAS PROMOCIONES ·</p>
-                <hr style="width: 80%">
-                <div>
-                    <div style=" margin-bottom: 2em; margin-top: 1em" class="centrado">
-                        <div class="owl-promo owl-carousel owl-theme" style="margin: auto; width: 800px">
-                            <div><img src="img/promo1.png" alt="Promo1"></div>
-                            <div><img src="img/promo2.png" alt="Promo2"></div>
-                            <div><img src="img/promo3.png" alt="Promo3"></div>
-                            <div><img src="img/promo4.png" alt="Promo4"></div>
+        </section>
+
+        <!-- slider promos-->
+        <section id="Promos" class="centrado en-columna nuestras-promos">
+            <p>· DESCUBRÍ NUESTRAS PROMOCIONES ·</p>
+            <hr style="width: 80%">
+            <div>
+                <div class="centrado contenedor-promos">
+                    <div class="owl-promo owl-carousel owl-theme">
+                        <div class="publicidad promos-1">
+                            <div class="carrusel"> </div>
+                            <!--<div class="textoPromos">
+                                <p class="textoP-uno">15 PIEZAS DE SALMÓN</p>
+                                <ul>
+                                    <li>5 Ny Philadelphia</li>
+                                    <li>5 Alabama</li>
+                                    <li>5 Full Salmón</li>
+                                </ul>
+                                <div>$660</div>
+                            </div>-->
+                        </div>
+
+                        <div class="publicidad promos-2">
+                            <div class="carrusel"></div>
+                            <!--<div class="textoPromos">
+                                <p class="textoP-uno">2 sushi salads NY O MIAMI</p>
+                                <p>+ 4u salmón rebozado</p>
+                                <div>$1200</div>
+                            </div>-->
+                        </div>
+
+                        <div class="publicidad promos-3">
+                            <div class="carrusel"></div>
+                            <!--<div class="textoPromos">
+                                <p class="textoP-uno">30 PIEZAS DE SALMÓN</p>
+                                <ul>
+                                    <li>10 Ny Philadelphia</li>
+                                    <li>10 Alabama</li>
+                                    <li>10 Full Salmón</li>
+                                </ul>
+                                <div>$1200</div>
+                            </div>-->
+                        </div>
+
+                        <div class="publicidad promos-4">
+                            <div class="carrusel"></div>
+                            <!--<div class="textoPromos">
+                                <p class="textoP-uno">25 PIEZAS ESPECIALES DELUXE</p>
+                                <ul>
+                                    <li>5 Ny Philadelphia</li>
+                                    <li>10 MIAMI</li>
+                                    <li>10 Full Salmón</li>
+                                    <li>5 Woodstoc</li>
+                                    <li>5 HOT ROLL</li>
+                                </ul>
+                                <div>$1300</div>
+                            </div>-->
                         </div>
                     </div>
-                    <div class="container-puntitos centrado" id="promo-puntitos"></div>
                 </div>
-            </section>
+                <div class="container-puntitos centrado" id="promo-puntitos" style="margin-top: -3em; margin-bottom: 1em;"></div>
+            </div>
+        </section>
 
 
-            <!-- <section class="centrado en-columna">
+        <!-- <section class="centrado en-columna">
 
             <div class="slider centrado-vertical" style="height: 250px; width: 750px">
                 <ul>
@@ -156,127 +205,183 @@
             </div>
         </section>-->
 
-            <!-- Nuestros combos/menu-->
-            <section class="centrado en-columna nuestro-menu">
-                <hr style="width: 80%; margin-top: -2.5em">
-                <p>SUSHI ROCK TIENE LAS PIEZAS MAS GRANDES Y SABROSAS</p>
-                <strong>¡MIRÁ NUESTRO MENÚ COMPLETO!</strong>
+        <!-- Nuestros combos/menu-->
+        <section class="centrado en-columna nuestro-menu">
+            <hr>
+            <p>SUSHI ROCK TIENE LAS PIEZAS MAS GRANDES Y SABROSAS</p>
+            <strong>¡MIRÁ NUESTRO MENÚ COMPLETO!</strong>
 
-                <a class="centrado imagen-menu" style="height: 250px; width: 750px">
-                    <p class="un-boton">NUESTRO MENÚ</p>
-                </a>
+            <a class="centrado imagen-menu" style="height: 250px; width: 750px">
+                <p class="un-boton">NUESTRO MENÚ</p>
+            </a>
 
-                <div class="centrado imagen-combo" style="height: 250px; width: 750px">
-                    <a class="un-boton">NUESTROS COMBOS</a>
-                </div>
-            </section>
-
-            <!-- slidersushiRock-->
-            <section class="centrado en-columna">
-                <div class="centrado en-columna en-tres-pasos">
-                    <p><strong>SUSHI ROCK</strong> EN CASA EN SÓLO 3 PASOS:</p>
-                    <hr>
-                </div>
-
-                <div class="rockbox" style="height: 220px; width: 750px"></div>
-            </section>
-
-            <!-- Delivery y contacto-->
-            <section class="columnas delivery">
-                <div class="al-50">
-                    <div class="columnas centrado-vertical">
-                        <div class="icono-container">
-                            <div class="icono-delivery icono-sushi"></div>
-                        </div>
-                        <div>
-                            <p class="bold-grande">EL DELIVERY DE SUSHI</p>
-                            <p class="titulos-bold">QUE ESTABAS ESPERANDO</p>
-                        </div>
-                    </div>
-
-                    <div class="columnas centrado-vertical">
-                        <div class="icono-container">
-                            <div class="icono-delivery icono-wsp"></div>
-                        </div>
-                        <div style="flex: 1">
-                            <p class="bullet">· Mandanos un Whatsapp</p>
-                            <p><a href="https://api.whatsapp.com/send?phone=5491164965839" class="bullet click" target="_blank"> <i class="fas fa-hand-point-right"></i> Click aquí</a></p>
-                        </div>
-                    </div>
-
-                    <div class="columnas centrado-vertical">
-                        <div class="icono-container">
-                            <div class="icono-delivery icono-pedido"></div>
-                        </div>
-                        <div>
-                            <p class="bullet">· Listo, tu pedido ya se está preparando.....</p>
-                            <p class="chiquito"> En aproximadamente 45 min. el pedido va hacer entregado. </p>
-                        </div>
-                    </div>
-
-                    <div class="columnas centrado-vertical">
-                        <div class="icono-container">
-                            <div class="icono-delivery icono-disfruta"></div>
-                        </div>
-                        <p class="bullet">· Sentate y disfrutá del mejor SUSHI</p>
-                    </div>
-
-                </div>
-
-                <div class="al-50">
-                    <div class="centrado">
-                        <img src="img/KOI.png" ; style="height: 190px">
-                    </div>
-                    <div class="columnas" style="font-size: 12px; margin-top: 1em">
-                        <div class="al-50">
-                            <div class="columnas centrado-vertical">
-                                <img src="img/ico-horario.png" width="32">
-                                <p class="titulos-bold">Días y horarios:</p>
-                            </div>
-                            <div class="indentado-32">
-                                <p>Martes a Domingos</p>
-                                <p>de 17:00 a 23:00 hs.</p>
-                                <p>Take away y Delivery </p>
-                            </div>
-
-                        </div>
-                        <div class="al-50">
-                            <div class="columnas centrado-vertical">
-                                <img src="img/ico-rolls.png" width="32">
-                                <p class="titulos-bold">Pedidos:</p>
-                            </div>
-
-                            <div class="columnas centrado-vertical indentado-32" style="padding-bottom: 0.75em">
-                                <img src="img/ico-telefono.png" width="16">
-                                <p style="padding-left: 0.25em;">+54 11 49582828</p>
-                            </div>
-
-                            <div class="columnas centrado-vertical indentado-32">
-                                <img src="img/ico-wsp.png" width="16">
-                                <p style="padding-left: 0.25em">+54 9 11 6496-5839</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Mapa-->
-            <section class="centrado">
-                <div style="width: auto">
-                    <p><strong>CONOCÉ NUESTRO LOCAL</strong></p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7086691684563!2d-58.43439448522348!3d-34.611527665417526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca69d0bf3753%3A0xc6cb84b318f3d635!2sAv.%20Avellaneda%20133%2C%20C1405CNB%20CABA!5e0!3m2!1ses!2sar!4v1611087980765!5m2!1ses!2sar" width="749" height="198" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
-            </section>
-
-            <!-- Footer-->
-            <footer class="columnas centrado">
-                <p class="copy">© 2021 Sushi Rock</p>
-                <a href="https://www.instagram.com/sushirockbsas/" class="ig" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/sushirockcatering/" class="fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=5491164965839" class="wsp" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                <p class="copy">© 2021 Sushi Rock</p>
-            </footer>
+            <div class="centrado imagen-combo" style="height: 250px; width: 750px">
+                <a class="un-boton">NUESTROS COMBOS</a>
+            </div>
         </section>
+
+        <!-- slidersushiRock-->
+        <section class="centrado en-columna">
+            <div class="centrado en-columna en-tres-pasos">
+                <p><strong>SUSHI ROCK</strong> EN CASA EN SÓLO 3 PASOS:</p>
+                <hr>
+            </div>
+
+            <div class="rockbox"></div>
+        </section>
+
+        <!-- Delivery y contacto-->
+        <section id="Contacto" class="columnas delivery">
+            <div class="al-50">
+                <div class="columnas centrado-vertical gradiente-derecha" style="padding-left: 2em">
+                    <div class="icono-container">
+                        <div class="icono-delivery icono-sushi"></div>
+                    </div>
+                    <div>
+                        <p class="bold-grande">EL DELIVERY DE SUSHI</p>
+                        <p class="titulos-bold">QUE ESTABAS ESPERANDO</p>
+                    </div>
+                </div>
+
+                <div class="columnas centrado-vertical" style="padding-left: 2em">
+                    <div class="icono-container">
+                        <div class="icono-delivery icono-wsp"></div>
+                    </div>
+                    <div style="flex: 1">
+                        <p class="bullet">· Mandanos un Whatsapp</p>
+                        <p><a href="https://api.whatsapp.com/send?phone=5491164965839" class="bullet click" target="_blank"> <i class="fas fa-hand-point-right"></i> Click aquí</a></p>
+                    </div>
+                </div>
+
+                <div class="columnas centrado-vertical" style="padding-left: 2em">
+                    <div class="icono-container">
+                        <div class="icono-delivery icono-pedido"></div>
+                    </div>
+                    <div>
+                        <p class="bullet">· Listo, tu pedido ya se está preparando.....</p>
+                        <p class="chiquito"> En aproximadamente 45 min. el pedido va hacer entregado. </p>
+                    </div>
+                </div>
+
+                <div class="columnas centrado-vertical" style="padding-left: 2em">
+                    <div class="icono-container">
+                        <div class="icono-delivery icono-disfruta"></div>
+                    </div>
+                    <p class="bullet">· Sentate y disfrutá del mejor SUSHI</p>
+                </div>
+
+            </div>
+
+            <div class="al-50">
+                <div class="centrado">
+                    <img src="img/KOI.png" ; style="height: 190px">
+                </div>
+                <div class="columnas" style="font-size: 12px; margin-top: 1em">
+                    <div class="al-50">
+                        <div class="columnas centrado-vertical">
+                            <img src="img/ico-horario.png" width="32">
+                            <p class="titulos-bold">Días y horarios:</p>
+                        </div>
+                        <div class="indentado-32">
+                            <p>Martes a Domingos</p>
+                            <p>de 17:00 a 23:00 hs.</p>
+                            <p>Take away y Delivery </p>
+                        </div>
+
+                    </div>
+                    <div class="al-50">
+                        <div class="columnas centrado-vertical">
+                            <img src="img/ico-rolls.png" width="32">
+                            <p class="titulos-bold">Pedidos:</p>
+                        </div>
+
+                        <div class="columnas centrado-vertical indentado-32" style="padding-bottom: 0.75em">
+                            <img src="img/ico-telefono.png" width="16">
+                            <p style="padding-left: 0.25em;">+54 11 49582828</p>
+                        </div>
+
+                        <div class="columnas centrado-vertical indentado-32">
+                            <img src="img/ico-wsp.png" width="16">
+                            <p style="padding-left: 0.25em">+54 9 11 6496-5839</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Contacto">
+            <div class="FondoDatos-mobile">
+                <div class="columnas centrado-vertical gradiente-derecha">
+                    <div class="icono-container">
+                        <div class="icono-delivery icono-sushi"></div>
+                    </div>
+                    <div>
+                        <p class="bold-grande">EL DELIVERY DE SUSHI</p>
+                        <p class="titulos-bold">QUE ESTABAS ESPERANDO</p>
+                    </div>
+                </div>
+                <div class="delivery-mobile">
+                    <div>
+                        <div class="columnas centrado-vertical titulos-bold">
+                            <img src="img/ico-horario.png" width="32">
+                            <p>Días y horarios:</p>
+                        </div>
+                        <div class="indentado-32">
+                            <p>Martes a Domingos</p>
+                            <p>de 17:00 a 23:00 hs.</p>
+                            <p>Take away y Delivery </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="columnas centrado-vertical titulos-bold">
+                            <img src="img/ico-rolls.png" width="32">
+                            <p>Pedidos:</p>
+                        </div>
+
+                        <div class="columnas centrado-vertical indentado-32">
+                            <img src="img/ico-telefono.png" width="16">
+                            <p style="padding-left: 0.25em; margin: 0">+54 11 49582828</p>
+                        </div>
+
+                        <div class="columnas centrado-vertical indentado-32">
+                            <img src="img/ico-wsp.png" width="16">
+                            <p style="padding-left: 0.25em">+54 9 11 6496-5839</p>
+                        </div>
+                    </div>
+                    <div style="padding-top: 1em;">
+                        <div class="columnas centrado">
+                            <p class="ico-marker" style="width:32px; display: flex; justify-content: center">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </p>
+                            <div>
+                                <p class="titulos-bold">Estamos en:</p>
+                                <p>Av. Avellaneda 133, Caballito</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Mapa-->
+        <section class="centrado en-columna">
+            <div>
+                <p style="justify-self: flex-start"><strong>CONOCÉ NUESTRO LOCAL</strong></p>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7086691684563!2d-58.43439448522348!3d-34.611527665417526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca69d0bf3753%3A0xc6cb84b318f3d635!2sAv.%20Avellaneda%20133%2C%20C1405CNB%20CABA!5e0!3m2!1ses!2sar!4v1611087980765!5m2!1ses!2sar" width="750" height="198" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        </section>
+
+        <!-- Footer-->
+        <footer class="columnas centrado">
+            <p class="copy">© 2021 Sushi Rock</p>
+            <a href="https://www.instagram.com/sushirockbsas/" class="ig" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/sushirockcatering/" class="fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5491164965839" class="wsp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <p class="copy">© 2021 Sushi Rock</p>
+        </footer>
 
         <div class="whatsapp">
             <a href="https://api.whatsapp.com/send?phone=5491164965839" target="_blank"></a>

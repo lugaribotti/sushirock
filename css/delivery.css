@@ -94,6 +94,10 @@ section.delivery {
 }
 
 @media all and (max-width: 600px) {
+    .bold-grande {
+    font-weight: bold;
+    font-size: 14px;
+}
 
     .delivery {
         display: none;

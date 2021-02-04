@@ -135,11 +135,11 @@ centrado-horizontal {
 }
 
 .gradiente-derecha {
-    background: linear-gradient(90deg, #777, transparent);
+    background: linear-gradient(90deg, #b9b9b9, transparent);
 }
 
 .gradiente-izquierda {
-    background: linear-gradient(-90deg, #777, transparent);
+    background: linear-gradient(-90deg, #b9b9b9, transparent);
 }
 
 .centrado-horizontal {

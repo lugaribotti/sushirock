@@ -24,6 +24,7 @@
     width: 80%;
     height: 1em;
 }
+
 .entradas {
     background-image: url(../img/sushi-especiales.png);
 }
@@ -89,6 +90,18 @@
     max-height: 180px;
 }
 
+.puntitos {
+}
+
+.puntitos::after {
+    content: ".................................................................";
+    background-image: url(../img/puntitos.png);
+    background-size:auto;
+    background-position:center;
+    flex-grow: 1;
+    background-repeat: repeat-x;
+}
+
 @media all and (max-width: 600px) {
 
     .entradas,
@@ -98,6 +111,20 @@
     .woks-platos,
     .postre {
         width: 100vw;
+        background-size: cover;
+    }
+}
+
+@media all and (max-width: 400px) {
+
+    .entradas,
+    .sushis,
+    .sushi-especiales,
+    .sushi-salads,
+    .woks-platos,
+    .postre {
+        max-height: 80px;
+        width: 100%;
         background-size: cover;
     }
 }

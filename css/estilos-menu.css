@@ -1,0 +1,103 @@
+.padre {
+    padding-top: 80px;
+}
+
+.padre hr {
+    width: 80%;
+}
+
+.botonera-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.botonera-menu div a {
+    text-decoration: none;
+    justify-content: center;
+}
+
+.botonera-menu hr {
+    width: 80%;
+    height: 1em;
+}
+.entradas {
+    background-image: url(../img/sushi-especiales.png);
+}
+
+.sushis {
+    background-image: url(../img/sushis.png);
+}
+
+.sushi-especiales {
+    background-image: url(../img/sushi-especiales.png);
+}
+
+.sushi-salads {
+    background-image: url(../img/);
+}
+
+.woks-platos {
+    background-image: url(../img/Platos-calientes.png);
+}
+
+.postre {
+    background-image: url(../img/Postres.png);
+}
+
+.entradas,
+.sushis,
+.sushi-especiales,
+.sushi-salads,
+.woks-platos,
+.postre {
+    background-size: cover;
+    height: 170px;
+    width: 250px;
+    margin: 0.25em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    opacity: 0.6;
+    transition: all 1.2s;
+    /*width: 100%;
+    height: 100%;
+    min-height: calc(100vw / 1.47);
+    max-width: 250px;*/
+}
+
+.btn-sin-recuadro {
+    background: transparent;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    text-shadow: 2px 2px 4px #565656;
+    width: 70%;
+    text-align: center;
+}
+
+.header-menu {
+    background-image: url(../img/header_menu.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vw;
+    max-width: 800px;
+    max-height: 180px;
+}
+
+@media all and (max-width: 600px) {
+
+    .entradas,
+    .sushis,
+    .sushi-especiales,
+    .sushi-salads,
+    .woks-platos,
+    .postre {
+        width: 100vw;
+        background-size: cover;
+    }
+}

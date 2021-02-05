@@ -130,10 +130,6 @@ centrado-horizontal {
     width: 80%;
 }
 
-.padre {
-    padding-top: 80px;
-}
-
 .gradiente-derecha {
     background: linear-gradient(90deg, #b9b9b9, transparent);
 }
@@ -146,6 +142,7 @@ centrado-horizontal {
     display: flex;
     align-items: center;
 }
+
 
 @media (max-width: 600px) {
     body {

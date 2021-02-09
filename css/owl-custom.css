@@ -7,8 +7,9 @@
     transform: translateY(50%);
     left: 0.25em;
     display: block !important;
-    border: 0px solid black;
-    color: white !important;
+    /*border: 0px solid black;
+    color: white !important;*/
+    background: transparent !important;
 }
 
 .owl-next {
@@ -22,6 +23,7 @@
     display: block !important;
     border: 0px solid black;
     color: white !important;
+    background: transparent !important;
 }
 
 .owl-prev i,
@@ -58,3 +60,5 @@
 .owl-dot.active > span {
     background-color: white;
 }
+
+

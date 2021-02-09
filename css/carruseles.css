@@ -166,7 +166,7 @@
 
 .rockbox {
     width: 100%;
-    min-height: calc(100vw / 3.40);
+    min-height: calc(100vw / 4);
     margin-bottom: 1em;
     margin-top: 0.5em;
     margin-left: 1.5em;
@@ -174,7 +174,7 @@
     background-image: url(../img/Sushi-rock-box.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 100%;
 }
 
 @media all and (max-width: 600px) {

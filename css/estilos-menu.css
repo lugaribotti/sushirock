@@ -1,8 +1,40 @@
-.padre {
-    padding-top: 80px;
+.back-to-top {
+    position: fixed;
+    bottom: 70%;
+    right: 50%;
+    transform: translateX(50%);
+    text-decoration: none;
+    color: rgba(56, 56, 56, 0.50);
+    font-size: 16px;
+    padding: 1em;
+    display: none;
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+    border-radius: 32px;
 }
 
-.padre hr {
+
+.back-to-top:hover {
+    background-color: #ffffff00;
+}
+
+h1 {
+    font-size: 18px;
+    color: #a5181b;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.padre {
+    padding-top: 80px;
+    width: 100%;
+    max-width: 960px;
+}
+
+.padre > hr {
     width: 80%;
 }
 
@@ -20,13 +52,8 @@
     justify-content: center;
 }
 
-.botonera-menu hr {
-    width: 80%;
-    height: 1em;
-}
-
 .entradas {
-    background-image: url(../img/sushi-especiales.png);
+    background-image: url(../img/Entradas.png);
 }
 
 .sushis {
@@ -55,52 +82,89 @@
 .sushi-salads,
 .woks-platos,
 .postre {
-    background-size: cover;
-    height: 170px;
-    width: 250px;
-    margin: 0.25em;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     opacity: 0.6;
+    width: 32%;
+    height: calc(32vw / 1.8);
+    margin: 4px;
+    display: block;
+}
+
+.entradas:hover,
+.sushis:hover,
+.sushi-especiales:hover,
+.sushi-salads:hover,
+.woks-platos:hover,
+.postre:hover {
+    background-size: 110%;
+    opacity: 1;
     transition: all 1.2s;
-    /*width: 100%;
-    height: 100%;
-    min-height: calc(100vw / 1.47);
-    max-width: 250px;*/
 }
 
 .btn-sin-recuadro {
-    background: transparent;
     font-weight: bold;
     font-size: 14px;
     color: white;
     text-shadow: 2px 2px 4px #565656;
-    width: 70%;
     text-align: center;
+    text-decoration: none;
 }
 
 .header-menu {
     background-image: url(../img/header_menu.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vw;
-    max-width: 800px;
-    max-height: 180px;
+    width: 100%;
+    height: calc(100vw / 7);
+}
+
+.header-menu ~ hr {
+    width: 80%;
+}
+
+.item-del-menu {
+    margin-bottom: 0.5em;
 }
 
 .puntitos {
+    color: black;
+    height: 0px;
+    border: 0.5px dashed;
+    flex-grow: 4;
+    margin: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    align-self: flex-end;
 }
 
-.puntitos::after {
+.texto-del-menu {
+    display: flex;
+}
+
+.precios-del-menu {
+    display: block;
+    min-width: 90px;
+    justify-self: right;
+    text-align: left;
+}
+
+.margenes-items-menu {
+    margin: 0.5em;
+    padding-right: 0.5em;
+}
+
+/*.puntitos::after {
     content: ".................................................................";
     background-image: url(../img/puntitos.png);
     background-size:auto;
     background-position:center;
     flex-grow: 1;
     background-repeat: repeat-x;
-}
+}*/
 
 @media all and (max-width: 600px) {
 
@@ -110,7 +174,7 @@
     .sushi-salads,
     .woks-platos,
     .postre {
-        width: 100vw;
+        width: 49%;
         background-size: cover;
     }
 }
@@ -126,5 +190,19 @@
         max-height: 80px;
         width: 100%;
         background-size: cover;
+    }
+
+    body {
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .indentado-32 {
+        padding-left: 1em;
+        padding-right: 1em;
     }
 }

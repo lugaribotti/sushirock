@@ -65,7 +65,7 @@ h1 {
 }
 
 .sushi-salads {
-    background-image: url(../img/);
+    background-image: url(../img/sushi-salads.png);
 }
 
 .woks-platos {
@@ -119,6 +119,7 @@ h1 {
     background-repeat: no-repeat;
     width: 100%;
     height: calc(100vw / 7);
+    margin-bottom: 1em;
 }
 
 .header-menu ~ hr {

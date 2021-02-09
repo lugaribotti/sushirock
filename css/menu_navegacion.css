@@ -144,7 +144,7 @@
 }
 
 .menu-hamburguesa {
-    display: block!important;
+    display: block !important;
     position: fixed;
     top: 2.75em;
     right: 2em;
@@ -152,7 +152,9 @@
 }
 
 @media all and (min-width: 600px) {
-    .navegacion-mobile, .menu-hamburguesa {
+
+    .navegacion-mobile,
+    .menu-hamburguesa {
         display: none;
         visibility: hidden;
     }
@@ -164,8 +166,9 @@
         visibility: hidden;
     }
 
-    .navegacion-mobile, .menu-hamburguesa {
+    .navegacion-mobile,
+    .menu-hamburguesa {
         display: inline;
-        visibility:visible;
+        visibility: visible;
     }
 }

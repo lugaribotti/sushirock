@@ -1,6 +1,7 @@
 .publicidad {
     position: relative;
-    height: 300px;
+    width: 960px;
+    height: calc(960px / 2.6);
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -42,7 +43,7 @@
 }
 
 .textoCarrusel {
-    padding-left: 2em;
+    padding-left: 4em;
     z-index: 2;
     text-align: center;
 }
@@ -166,9 +167,10 @@
 .rockbox {
     width: 100%;
     min-height: calc(100vw / 3.40);
-    max-width: 750px;
     margin-bottom: 1em;
     margin-top: 0.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     background-image: url(../img/Sushi-rock-box.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -181,6 +183,10 @@
         padding-right: 0;
     }
 
+    .textoCarrusel {
+        padding-left: 0;
+    }
+
     .textoCarrusel > div {
         display: flex;
         flex-direction: column;
@@ -190,6 +196,7 @@
 
     .publicidad {
         justify-content: center;
+        height: calc(960px / 4.75);
     }
 
     .promos-1 {

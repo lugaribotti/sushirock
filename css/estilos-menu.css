@@ -211,6 +211,10 @@ h1 {
     .woks-platos,
     .postre {
         width: 100%;
+        height: calc(40vw/2.2);
+    }
+    .header-menu{
+        height: calc(40vw/2.2);
     }
 
     body {

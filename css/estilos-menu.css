@@ -149,7 +149,7 @@ h1 {
     display: block;
     min-width: 90px;
     justify-self: right;
-    text-align: left;
+    text-align: right;
 }
 
 .margenes-items-menu {
@@ -218,11 +218,11 @@ h1 {
     }
 
     body {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     h1 {
-        font-size: 10px;
+        font-size: 12px;
         text-align: center;
     }
 

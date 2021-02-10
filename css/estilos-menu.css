@@ -1,10 +1,10 @@
 .back-to-top {
     position: fixed;
-    bottom: 70%;
+    bottom: 80%;
     right: 50%;
     transform: translateX(50%);
     text-decoration: none;
-    color: rgba(56, 56, 56, 0.50);
+    color: rgba(56, 56, 56, 0.15);
     font-size: 16px;
     padding: 1em;
     display: none;
@@ -12,20 +12,19 @@
     padding: 0;
     margin: 0;
     border-radius: 32px;
+    z-index: 10;
 }
 
 
 .back-to-top:hover {
+    color: rgba(56, 56, 56, 0.70);
     background-color: #ffffff00;
 }
 
 h1 {
     font-size: 18px;
-    color: #a5181b;
     font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+    margin: 0;
 }
 
 .padre {
@@ -45,6 +44,7 @@ h1 {
     align-content: space-between;
     justify-content: center;
     margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .botonera-menu div a {
@@ -84,12 +84,11 @@ h1 {
 .postre {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     opacity: 0.6;
     width: 32%;
-    height: calc(32vw / 1.8);
+    height: calc(32vw / 2.2);
     margin: 4px;
-    display: block;
 }
 
 .entradas:hover,
@@ -103,7 +102,7 @@ h1 {
     transition: all 1.2s;
 }
 
-.btn-sin-recuadro {
+.btn-sin-recuadro > a {
     font-weight: bold;
     font-size: 14px;
     color: white;
@@ -158,6 +157,30 @@ h1 {
     padding-right: 0.5em;
 }
 
+.h1-con-precio {
+    color: #a5181b;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.especiales2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+
+.entradas2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+
 /*.puntitos::after {
     content: ".................................................................";
     background-image: url(../img/puntitos.png);
@@ -175,8 +198,7 @@ h1 {
     .sushi-salads,
     .woks-platos,
     .postre {
-        width: 49%;
-        background-size: cover;
+        width: 48%;
     }
 }
 
@@ -188,9 +210,7 @@ h1 {
     .sushi-salads,
     .woks-platos,
     .postre {
-        max-height: 80px;
         width: 100%;
-        background-size: cover;
     }
 
     body {

@@ -22,7 +22,7 @@
 }
 
 h1 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
@@ -158,11 +158,20 @@ h1 {
 }
 
 .h1-con-precio {
+    font-size: 20px;
     color: #a5181b;
     display: flex;
     justify-content: space-between;
     margin-top: 2em;
     margin-bottom: 0.5em;
+}
+
+.span-con-precio{
+    font-size: 20px;
+    font-weight: 500;
+    color: #a5181b;
+    padding-bottom: 0.75em;
+    margin-right: 1em;
 }
 
 .especiales2:before {
@@ -179,6 +188,15 @@ h1 {
     margin-top: -80px;
     height: 80px;
     visibility: hidden;
+}
+
+.en-2columnas > div{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+
 }
 
 /*.puntitos::after {

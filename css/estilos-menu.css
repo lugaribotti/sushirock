@@ -21,11 +21,11 @@
     background-color: #ffffff00;
 }
 
-h1 {
+/*h1 {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
-}
+}*/
 
 .padre {
     padding-top: 80px;
@@ -158,28 +158,21 @@ h1 {
 }
 
 .h1-con-precio {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 600;
     color: #a5181b;
     display: flex;
     justify-content: space-between;
     margin-top: 2em;
     margin-bottom: 0.5em;
+    align-items: center;
 }
 
-.span-con-precio{
-    font-size: 20px;
+.span-con-precio {
+    font-size: 18px;
     font-weight: 500;
     color: #a5181b;
-    padding-bottom: 0.75em;
     margin-right: 1em;
-}
-
-.especiales2:before {
-    display: block;
-    content: " ";
-    margin-top: -80px;
-    height: 80px;
-    visibility: hidden;
 }
 
 .entradas2:before {
@@ -190,7 +183,49 @@ h1 {
     visibility: hidden;
 }
 
-.en-2columnas > div{
+.sushis2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+
+.especiales2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+
+.salads2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+
+.woks2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+
+.postres2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+
+
+
+.en-2columnas > div {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -231,21 +266,39 @@ h1 {
         width: 100%;
         height: calc(40vw/2.2);
     }
-    .header-menu{
+
+    .header-menu {
         height: calc(40vw/2.2);
     }
 
     body {
-        font-size: 11px;
-    }
-
-    h1 {
-        font-size: 12px;
-        text-align: center;
+        font-size: 14px;
     }
 
     .indentado-32 {
-        padding-left: 1em;
-        padding-right: 1em;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
     }
+
+    .h1-con-precio {
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .span-con-precio {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .al-50 {
+        width: 100%;
+    }
+
+    .columnas {
+        display: block;
+    }
+
 }

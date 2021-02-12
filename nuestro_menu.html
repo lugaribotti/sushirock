@@ -48,14 +48,14 @@
                         <li><a href="nuestro_menu.html">MENÚ</a>
                             <ul class="dropdown">
                                 <li><a href="#entradas1">ENTRADAS</a></li>
-                                <li><a href="#">SUSHIS</a></li>
+                                <li><a href="#sushis1">SUSHIS</a></li>
                                 <li><a href="#especiales1">SUSHI ESPECIALES</a></li>
-                                <li><a href="#">SUSHI SALADS</a></li>
-                                <li><a href="#">WOKS & PLATOS CALIENTES</a></li>
-                                <li><a href="#">POSTRES</a></li>
+                                <li><a href="#salads1">SUSHI SALADS</a></li>
+                                <li><a href="#woks1">WOKS &amp; PLATOS CALIENTES</a></li>
+                                <li><a href="#postres1">POSTRES</a></li>
                             </ul>
                         </li>
-                        <li><a href="#Promos">PROMOS</a>
+                        <li><a href="index.html#promos1">PROMOS</a>
                             <ul class="dropdown">
                                 <li><a href="#">PROMO 1</a></li>
                                 <li><a href="#">PROMO 2</a></li>
@@ -63,7 +63,7 @@
                                 <li><a href="#">PROMO 4</a></li>
                             </ul>
                         </li>
-                        <li><a href="#Combos">COMBOS</a>
+                        <li><a href="index.html#combos1">COMBOS</a>
                             <ul class="dropdown">
                                 <li><a href="#">SANTANA</a></li>
                                 <li><a href="#">HENDRIX</a></li>
@@ -71,7 +71,7 @@
                                 <li><a href="#">RIFF</a></li>
                             </ul>
                         </li>
-                        <li><a href="#Contacto">CONTACTO</a></li>
+                        <li><a href="index.html#contacto1">CONTACTO</a></li>
                     </ul>
                 </nav>
             </div>
@@ -87,10 +87,10 @@
             <input type="checkbox" id="menu-mobile" />
             <ul class="dropdown-mobile">
                 <li><a href="nuestro_menu.html">MENU</a></li>
-                <li><a href="#Combos">COMBOS</a></li>
-                <li><a href="#Promos">PROMOS</a></li>
-                <li><a href="#Box">SUSHI BOX</a></li>
-                <li><a href="#Contacto">PEDIDOS</a></li>
+                <li><a href="index.html#combos1">COMBOS</a></li>
+                <li><a href="index.html#promos1">PROMOS</a></li>
+                <li><a href="index.html#box1">SUSHI BOX</a></li>
+                <li><a href="index.html#contacto1">PEDIDOS</a></li>
             </ul>
         </nav>
 
@@ -127,7 +127,9 @@
 
         <!--Entradas-->
         <section class="indentado-32 margenes-items-menu entradas2" id="entradas1">
-            <h1 class="h1-con-precio">· ENTRADAS ·</h1>
+            <div class="h1-con-precio">
+                <span>· ENTRADAS ·</span>
+            </div>
             <div class="columnas item-del-menu">
                 <span>LANGOSTINOS REBOZADOS EN PANKO</span>
                 <hr class="puntitos">
@@ -181,10 +183,11 @@
         </section>
 
         <!--Sushis-->
-        <section class="indentado-32" id="sushis1">
+        <section class="indentado-32 sushis2">
             <div>
-                <div class="sushis2">
-                    <h1 class="h1-con-precio">· ROCK &amp; ROLLS · SIMPLES <span style="font-weight: 500; margin-right: 1em">5U $260 | 10U $520</span></h1>
+                <div class="h1-con-precio" id="sushis1">
+                    <span>· ROCK &amp; ROLLS · SIMPLES</span>
+                    <span class="span-con-precio">5U $260 | 10U $520</span>
                 </div>
                 <div class="columnas en-columna margenes-items-menu">
                     <span>PHILA</span>
@@ -208,12 +211,12 @@
             </div>
         </section>
 
-
         <!--Sushis Especiales-->
         <section class="indentado-32" id="especiales1">
-            <div>
-                <div class="especiales2">
-                    <h1 class="h1-con-precio">· ROCK &amp; ROLLS · ESPECIALES <span class="span-con-precio">5U $280 | 10U $560</span></h1>
+            <div class="especiales2">
+                <div class="h1-con-precio">
+                    <span>· ROCK &amp; ROLLS · ESPECIALES</span>
+                    <span class="span-con-precio">5U $280 | 10U $560</span>
                 </div>
 
                 <div class="columnas en-columna margenes-items-menu">
@@ -349,7 +352,7 @@
             <!--Vegetariano-->
             <div>
                 <div class="h1-con-precio">
-                    <h1>· VEGETARIANO ·</h1>
+                    <span>· VEGETARIANO ·</span>
                     <span class="span-con-precio">5U $240 | 10U $480</span>
                 </div>
 
@@ -394,7 +397,7 @@
             <!--Rebozados-->
             <div>
                 <div class="h1-con-precio">
-                    <h1>· REBOZADOS ·</h1>
+                    <span>· REBOZADOS ·</span>
                     <span class="span-con-precio">5U $280 | 10U $560</span>
                 </div>
 
@@ -462,7 +465,7 @@
             <!--Makis-->
             <div>
                 <div class="h1-con-precio">
-                    <h1>· MAKIS ·<span style="font-weight: 300"> (Envueltos en alga nori)</span> </h1>
+                    <span>· MAKIS ·<span style="font-weight: 300"> (Envueltos en alga nori)</span> </span>
                     <span class="span-con-precio">5U $280 | 10U $560</span>
                 </div>
 
@@ -505,14 +508,20 @@
 
             <!--Niguris-->
             <div>
-                <h1 class="h1-con-precio">· NIGUIRIS ·</h1>
+                <div class="h1-con-precio">
+                    <span>· NIGUIRIS ·</span>
+                </div>
                 <div class="columnas en-columna margenes-items-menu">
-                    <span class="span-con-precio">1U $75</span>
+                    <div>
+                        <span class="span-con-precio">1U $75</span>
+                    </div>
                     <span>SALMÓN | KANIKAMA | LANGOSTINO</span>
                 </div>
                 <hr>
                 <div class="columnas en-columna margenes-items-menu">
-                    <span class="span-con-precio">1U $90</span>
+                    <div>
+                        <span class="span-con-precio">1U $90</span>
+                    </div>
                     <span>PULPO</span>
                     <span>Bocadito de arroz, envuelto en Pulpo Español</span>
                 </div>
@@ -525,14 +534,20 @@
 
             <!--Sashimis-->
             <div>
-                <h1 class="h1-con-precio">· SASHIMIS ·</h1>
+                <div class="h1-con-precio">
+                    <span>· SASHIMIS ·</span>
+                </div>
                 <div class="columnas en-columna margenes-items-menu">
-                    <span class="span-con-precio">1U $75</span>
+                    <div>
+                        <span class="span-con-precio">1U $75</span>
+                    </div>
                     <span>SALMON | LANGOSTINO | PULPO</span>
                 </div>
                 <hr>
                 <div class="columnas en-columna margenes-items-menu">
-                    <span class="span-con-precio">1U $90</span>
+                    <div>
+                        <span class="span-con-precio">1U $90</span>
+                    </div>
                     <span>JAGGER</span>
                     <span>Selectos cortes de Salmón Flambeado, con salsa Bs. As.</span>
                 </div>
@@ -545,14 +560,20 @@
 
             <!--Geishas-->
             <div>
-                <h1 class="h1-con-precio">· GEISHAS ·</h1>
+                <div class="h1-con-precio">
+                    <span>· GEISHAS ·</span>
+                </div>
                 <div class="columnas en-columna margenes-items-menu">
-                    <span class="span-con-precio">1U $75</span>
+                    <div>
+                        <span class="span-con-precio">1U $75</span>
+                    </div>
                     <span>SALMÓN | LANGOSTINO</span>
                 </div>
                 <hr>
                 <div class="columnas en-columna margenes-items-menu">
-                    <span class="span-con-precio">1U $90</span>
+                    <div>
+                        <span class="span-con-precio">1U $90</span>
+                    </div>
                     <span>AHUMADA*</span>
                     <span>Queso Philadelphia y Palta envueltos en Salmón Ahumado y Sésamo tostado</span>
                 </div>
@@ -576,7 +597,7 @@
             <!--Temakis-->
             <div>
                 <div class="h1-con-precio">
-                    <h1>· TEMAKIS ·</h1>
+                    <span>· TEMAKIS ·</span>
                     <span class="span-con-precio">1U $300</span>
                 </div>
                 <div class="columnas en-columna margenes-items-menu">
@@ -601,13 +622,49 @@
             </div>
         </section>
 
-        <!--Woks y platos calientes-->
-        <section class="indentado-32">
+        <!--Sushi salads-->
+        <section class="indentado-32 salads2" id="salads1">
             <hr style="margin-top: 2em;">
             <div class="columnas">
                 <div class="al-50">
                     <div class="h1-con-precio">
-                        <h1>· WOKS ·</h1>
+                        <span>· SUSHI SALADS ·</span>
+                    </div>
+                    <div class="columnas en-columna margenes-items-menu">
+                        <div>
+                            <span class="span-con-precio">1U $650</span>
+                        </div>
+                        <span>BASE DE ARROZ DE SUSHI</span>
+                        <span>3 INGREDIENTES – EXTRAS $25</span>
+                    </div>
+                </div>
+                <div class="indentado-32 al-50">
+                    <div class="h1-con-precio">
+                        <span>· SALSAS Y EXTRAS ·</span>
+                    </div>
+                    <div class="columnas en-columna margenes-items-menu">
+                        <div>
+                            <span class="span-con-precio">1U $60</span>
+                        </div>
+                        <span>SALSA MOSTAZA Y MIEL</span>
+                        <span>SALSA BS. AS.</span>
+                        <span>JENGIBRE</span>
+                        <span>SALSA DE PALTA, AJO Y LIMÓN</span>
+                        <span>GUACAMOLE</span>
+                        <span>MARACUYÁ</span>
+                        <span>TERIYAKI</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Woks y platos calientes-->
+        <section class="indentado-32 woks2" id="woks1">
+            <hr style="margin-top: 2em;">
+            <div class="columnas">
+                <div class="al-50">
+                    <div class="h1-con-precio">
+                        <span class="especiales2">· WOKS ·</span>
                     </div>
                     <div>
                         <div class="columnas en-columna margenes-items-menu">
@@ -630,16 +687,21 @@
                 </div>
                 <div class="indentado-32 al-50">
                     <div class="h1-con-precio">
-                        <h1>· PLATOS CALIENTES ·</h1>
+                        <span>· PLATOS CALIENTES ·</span>
                     </div>
                     <div class="columnas en-columna margenes-items-menu">
-                        <span class="span-con-precio">1U $750</span>
-                        <span>SALMÓN A LA PLANCHA</span>
-                        <span>Con guarnición de arroz y vegetales salteados al wok o ensalada de hojas verdes con palta y mango</span>
+                        <div>
+                            <span class="span-con-precio">1U $750</span>
+                        </div>
+                        <div>
+                            <span>SALMÓN A LA PLANCHA</span>
+                            <span>Con guarnición de arroz y vegetales salteados al wok o ensalada de hojas verdes con palta y mango</span>
+                        </div>
                     </div>
                     <hr>
                     <div class="columnas en-columna margenes-items-menu">
-                        <span class="span-con-precio">1U $700</span>
+                        <div> <span class="span-con-precio">1U $700</span>
+                        </div>
                         <span>MILANESA DE SALMÓN</span>
                         <span>Con guarnición de arroz y vegetales salteados al wok o ensalada de hojas verdes con palta y mango</span>
                     </div>
@@ -647,43 +709,11 @@
             </div>
         </section>
 
-        <!--Sushi salads-->
-        <section class="indentado-32">
-            <hr style="margin-top: 2em;">
-            <div class="columnas">
-                <div class="al-50">
-                    <div class="h1-con-precio">
-                        <h1>· SUSHI SALADS ·</h1>
-                    </div>
-                    <div class="columnas en-columna margenes-items-menu">
-                        <span class="span-con-precio">1U $650</span>
-                        <span>BASE DE ARROZ DE SUSHI</span>
-                        <span>3 INGREDIENTES – EXTRAS $25</span>
-                    </div>
-                </div>
-                <div class="indentado-32 al-50">
-                    <div class="h1-con-precio">
-                        <h1>· SALSAS Y EXTRAS ·</h1>
-                    </div>
-                    <div class="columnas en-columna margenes-items-menu">
-                        <span class="span-con-precio">1U $60</span>
-                        <span>SALSA MOSTAZA Y MIEL</span>
-                        <span>SALSA BS. AS.</span>
-                        <span>JENGIBRE</span>
-                        <span>SALSA DE PALTA, AJO Y LIMÓN</span>
-                        <span>GUACAMOLE</span>
-                        <span>MARACUYÁ</span>
-                        <span>TERIYAKI</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!--Postres-->
-        <section class="indentado-32">
+        <section class="indentado-32 postres2" id="postres1">
             <hr style="margin-top: 2em;">
             <div class="h1-con-precio">
-                <h1>· POSTRES ·</h1>
+                <span>· POSTRES ·</span>
                 <span class="span-con-precio">1U $320</span>
             </div>
             <div class="columnas en-columna margenes-items-menu">

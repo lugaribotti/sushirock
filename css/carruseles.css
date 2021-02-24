@@ -9,6 +9,10 @@
     margin-bottom: 1em;
 }
 
+.alineado-derecha {
+    justify-content: flex-end;
+}
+
 .publicidad-1 {
     background-image: url("../img/inicio_1.png");
     background-color: #cccccc;
@@ -88,7 +92,6 @@
     margin-bottom: 1.7em;
     margin-top: 0;
     padding: 0;
-
 }
 
 .texto-seis {
@@ -96,11 +99,12 @@
     text-shadow: 2px 2px 4px #565656;
     color: white;
     margin-bottom: 0;
-    margin-top: 0.15em;
+    padding: 0;
+    width:100%;
 }
 
 .texto-siete {
-    font-size: 16px;
+    font-size: 20px;
     text-shadow: 2px 2px 4px #565656;
     color: white;
     margin-bottom: 1.2em;
@@ -156,18 +160,39 @@
     background-size: cover;
 }
 
+.promos-5 {
+    height: 250px;
+    background-image: url("../img/promo5.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .textoPromos {
     display: flex;
     flex-direction: column;
-    justify-self: center;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     min-height: 250px;
 }
+
+/*.fondo-titulo-promos {
+    background-image: url(../img/sushi-titulos-promos.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 130px;
+    background-position: center;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}*/
 
 .rockbox {
     width: 100%;
     min-height: calc(100vw / 4);
-    margin-bottom: 1em;
+    margin-bottom: 0;
     margin-top: 0.5em;
     margin-left: 1.5em;
     margin-right: 1.5em;
@@ -177,6 +202,7 @@
     background-size: 100%;
 
 }
+
 
 @media all and (max-width: 600px) {
     .contenedor-promos {

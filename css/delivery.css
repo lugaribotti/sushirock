@@ -93,11 +93,18 @@ section.delivery {
     display: none;
 }
 
+.contactos-desktop {
+    font-size: 12px;
+    margin-top: 1em;
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+}
+
 @media all and (max-width: 600px) {
     .bold-grande {
-    font-weight: bold;
-    font-size: 14px;
-}
+        font-weight: bold;
+        font-size: 14px;
+    }
 
     .delivery {
         display: none;
@@ -150,5 +157,9 @@ section.delivery {
         padding-bottom: 0;
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    .contactos-desktop{
+        display: none;
     }
 }

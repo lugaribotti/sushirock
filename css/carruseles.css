@@ -9,10 +9,6 @@
     margin-bottom: 1em;
 }
 
-.alineado-derecha {
-    justify-content: flex-end;
-}
-
 .publicidad-1 {
     background-image: url("../img/inicio_1.png");
     background-color: #cccccc;
@@ -95,21 +91,55 @@
 }
 
 .texto-seis {
-    font-size: 16px;
-    text-shadow: 2px 2px 4px #565656;
-    color: white;
-    margin-bottom: 0;
-    padding: 0;
-    width:100%;
-}
-
-.texto-siete {
     font-size: 20px;
     text-shadow: 2px 2px 4px #565656;
     color: white;
     margin-bottom: 1.2em;
     margin-top: 0.15em;
     padding: 0;
+}
+
+.texto-siete {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    justify-content: center;
+}
+
+.texto-ocho {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    margin: 0;
+}
+
+.texto-nueve {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.precio-recuadro {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    margin-top: 1em;
+    padding-right: 0.75em;
+    padding-left: 0.75em;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    border: 1px dashed black;
+}
+.alineado-derecha{
+    justify-content: flex-end;
 }
 
 .promo {
@@ -177,17 +207,17 @@
     min-height: 250px;
 }
 
-/*.fondo-titulo-promos {
+.fondo-titulo-promos {
     background-image: url(../img/sushi-titulos-promos.png);
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 130px;
+    min-height: 48px;
     background-position: center;
     width: 50%;
     margin: 0;
-    padding: 0;
+    padding-top: 1em;
     align-items: center;
-}*/
+}
 
 .rockbox {
     width: 100%;

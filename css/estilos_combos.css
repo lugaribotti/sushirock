@@ -1,0 +1,99 @@
+.header-combos {
+    background-image: url(../img/header_combos.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100vw / 7);
+    margin-bottom: 1em;
+}
+
+.combo_santana {
+    margin-top: 1em;
+    background-image: url(../img/combo_santana.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 93%;
+    width: 100%;
+    height: 100%;
+    min-height: calc(100vw / 4.5);
+    justify-content: center;
+}
+
+.combo_acdc {
+    margin-top: 3em;
+    background-image: url(../img/combo_ACDC.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 93%;
+    width: 100%;
+    height: 100%;
+    min-height: calc(100vw / 4.5);
+    justify-content: center;
+}
+
+.combo_riff {
+    margin-top: 3em;
+    background-image: url(../img/combo_Riff.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 93%;
+    width: 100%;
+    height: 100%;
+    min-height: calc(100vw / 4.5);
+    justify-content: center;
+}
+
+.combo_hendrix {
+    margin-top: 3em;
+    background-image: url(../img/combo_Hendrix.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 93%;
+    width: 100%;
+    height: 100%;
+    min-height: calc(100vw / 4.5);
+    justify-content: center;
+}
+
+.santana2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+.acdc2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+.riff2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+
+.hendrix2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+
+.indentado-32-derecha {
+    padding-right: 32px;
+}
+
+@media (max-width: 600px) {
+    .combo_santana {
+        min-height: calc(100vw / 2.6);
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

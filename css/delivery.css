@@ -30,7 +30,7 @@ section.delivery {
 }
 
 .icono-delivery {
-    height: 72px;
+    height: 96px;
     width: 72px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -95,9 +95,9 @@ section.delivery {
 
 .contactos-desktop {
     font-size: 12px;
-    margin-top: 1em;
-    padding-bottom: 1em;
-    padding-top: 0.5em;
+    margin-top: 2em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
 }
 
 @media all and (max-width: 600px) {

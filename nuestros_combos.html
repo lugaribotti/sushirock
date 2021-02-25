@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SushiRock </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <meta http-equiv="X-UA/Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/6561e22216.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/delivery.css">
+    <link rel="stylesheet" href="css/botones.css">
+    <link rel="stylesheet" href="css/menu_navegacion.css">
+    <link rel="stylesheet" href="css/carruseles.css">
+    <link rel="stylesheet" href="css/owl-custom.css">
+    <link rel="stylesheet" href="css/estilos-menu.css">
+    <link rel="stylesheet" href="css/estilos_combos.css">
+    <link rel="stylesheet" href="css/home.css">
+
+</head>
+
+<body>
+    <div class="padre">
+        <a href="#" class="back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <!-- menu de navegacion-->
+        <header class="header centrado" style="box-shadow: 0px 5px 10px -10px #A5A5A5">
+            <div class="menu">
+                <div class="menu-izquierda">
+                    <a class="logo" href="index.html">
+                        <img src="img/logo.png" width="48">
+                    </a>
+                    <div class="bajada">EL SUSHI QUE ESTABAS ESPERANDO</div>
+                </div>
+
+                <nav class="navegacion-desktop" role="navigation">
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="nuestro_menu.html">MENÚ</a>
+                            <ul class="dropdown">
+                                <li><a href="nuestro_menu.html#entradas1">ENTRADAS</a></li>
+                                <li><a href="nuestro_menu.html#sushis1">SUSHIS</a></li>
+                                <li><a href="nuestro_menu.html#especiales1">SUSHI ESPECIALES</a></li>
+                                <li><a href="nuestro_menu.html#salads1">SUSHI SALADS</a></li>
+                                <li><a href="nuestro_menu.html#woks1">WOKS &amp; PLATOS CALIENTES</a></li>
+                                <li><a href="nuestro_menu.html#postres1">POSTRES</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="index.html#promociones1">PROMOS</a>
+                        </li>
+                        <li><a href="nuestros_combos.html">COMBOS</a>
+                            <ul class="dropdown">
+                                <li><a href="nuestros_combos.html#santana">SANTANA</a></li>
+                                <li><a href="nuestros_combos.html#acdc">AC DC</a></li>
+                                <li><a href="nuestros_combos.html#riff">RIFF</a></li>
+                                <li><a href="nuestros_combos.html#hendrix">HENDRIX</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="index.html#contacto1">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="menu-hamburguesa">
+            <label for="menu-mobile">
+                <i class="fas fa-bars"></i>
+            </label>
+        </div>
+
+        <nav class="navegacion-mobile" role="navigation">
+            <input type="checkbox" id="menu-mobile" />
+            <ul class="dropdown-mobile">
+                <li><a href="nuestro_menu.html">MENU</a></li>
+                <li><a href="#santana">COMBOS</a></li>
+                <li><a href="index.html#promociones1">PROMOS</a></li>
+                <li><a href="index.html#box1">SUSHI BOX</a></li>
+                <li><a href="index.html#contacto1">PEDIDOS</a></li>
+            </ul>
+        </nav>
+
+        <!-- titulo combos-->
+        <section class="centrado en-columna">
+            <div class="header-combos">.</div>
+            <span>· NUESTROS COMBOS ·</span>
+        </section>
+        <hr>
+
+        <!--Combo Santana-->
+        <section class="centrado en-columna santana2" id="santana">
+            <div>
+                <div class="centrado-horizontal contenedor-combo combo_santana">
+                </div>
+
+                <div class="indentado-32 indentado-32-derecha">
+                    <div class="h1-con-precio">
+                        <span>· COMBO SANTANA ·</span>
+                    </div>
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$750</span>
+                        <span><strong>S</strong> - 12 PIEZAS SOLO SALMÓN</span>
+                        <span style="padding-top: 0.3em">1 Niguiri – 1 Sashimi – 4 New York con Phila – 4 Alabama Roll – 2 Full Salmón o Tamago Roll</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$1520</span>
+                        <span><strong>M</strong> - 24 PIEZAS SOLO SALMÓN</span>
+                        <span style="padding-top: 0.3em">2 Niguiris – 2 Sashimis – 2 Geishas – 5 New York con Phila – 5 Alabama Roll – 4 Full Salmón – 4 Tamago Roll</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$2020</span>
+                        <span><strong>L</strong> - 32 PIEZAS SOLO SALMÓN</span>
+                        <span style="padding-top: 0.3em">4 Niguiris – 4 Sashimis – 4 Geishas – 5 New York con Phila – 5 Alabama Roll – 5 Full Salmon – 5 Tamago Roll</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$2520</span>
+                        <span><strong>XL</strong> - 40 PIEZAS SOLO SALMÓN</span>
+                        <span style="padding-top: 0.3em">5 Niguiris – 5 Sashimis – 5 Geishas – 5 New York con Phila – 5 Alabama Roll – 5 Philla Rock – 5 Full Salmon – 5 Tamago Roll</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$3150</span>
+                        <span><strong>XXL</strong> - 50 PIEZAS SOLO SALMÓN</span>
+                        <span style="padding-top: 0.3em">5 Niguiris – 5 Sashimis – 5 Geishas – 5 New York con Phila – 5 Alabama Roll – 5 Philla Rock – 5 Full Salmon – 5 Tamago Roll</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Combo AC DC-->
+        <section class="centrado en-columna acdc2" id="acdc">
+            <div>
+                <div class="centrado-horizontal contenedor-combo combo_acdc">
+                </div>
+
+                <div class="indentado-32 indentado-32-derecha">
+                    <div class="h1-con-precio">
+                        <span>· COMBO AC DC ·</span>
+                    </div>
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$780</span>
+                        <span><strong>S</strong> - 12 PIEZAS ESPECIALES DELUXE</span>
+                        <span style="padding-top: 0.3em">2 New York Rock Roll (rebozados) – 1 Geisha Eclypse – 1 Geisha Salmon – 1 Tamago Queen – 1 Tamago Roll – 2 Woodstock – 2 Liverpool – 2 New York con Philla</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$1560</span>
+                        <span><strong>M</strong> - 24 PIEZAS ESPECIALES DELUXE</span>
+                        <span style="padding-top: 0.3em">5 New York Rock Roll (rebozados) – 2 Geisha Eclypse – 2 Geisha Salmon – 2 Tamago Queen – 4 Woodstock – 3 Liverpool – 3 New York con Philla – 3 Tamago Roll</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$2080</span>
+                        <span><strong>L</strong> - 32 PIEZAS ESPECIALES DELUXE</span>
+                        <span style="padding-top: 0.3em">4 Niguiris – 4 Sashimis – 4 Geishas – 5 New York con Phila – 5 Alabama Roll – 5 Full Salmon – 5 Tamago Roll</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$2600</span>
+                        <span><strong>XL</strong> - 40 PIEZAS ESPECIALES DELUXE</span>
+                        <span style="padding-top: 0.3em">4 New York Rock Roll (rebozados) – 4 Miami Rock Roll (rebozados) – 3 Niguiri – 3 Geisha Eclypse – 3 Geisha Salmon – 4 Tamago Queen – 5 Woodstock – 4 Liverpool – 4 New York con Philla – 3 Tamago Roll – 3 Maracuya Roll</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$3250</span>
+                        <span><strong>XXL</strong> - 50 PIEZAS ESPECIALES DELUXE</span>
+                        <span style="padding-top: 0.3em">5 New York Rock Roll (rebozados) – 5 Maki Rock Roll (rebozados) – 4 Niguiri – 4 Geisha Eclypse – 4 Geisha Salmon – 5 Tamago Queen – 5 Woodstock – 5 Liverpool – 5 New York con Philla – 4 Tamago Roll – 4 Maracuya Roll</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Combo Riff-->
+        <section class="centrado en-columna riff2" id="riff">
+            <div>
+                <div class="centrado-horizontal contenedor-combo combo_riff">
+                </div>
+
+                <div class="indentado-32 indentado-32-derecha">
+                    <div class="h1-con-precio">
+                        <span>· COMBO RIFF ·</span>
+                    </div>
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$770</span>
+                        <span><strong>S</strong> - 12 PIEZAS REBOZADAS Y ESPECIALES</span>
+                        <span style="padding-top: 0.3em">4 Miami Rock Roll – 4 New York Roll (rebozados) – 2 Manhatan – 2 Woodstock</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$1540</span>
+                        <span><strong>M</strong> - 24 PIEZAS REBOZADAS Y ESPECIALES</span>
+                        <span style="padding-top: 0.3em">6 Miami Rock Roll – 5 New York Roll (rebozados) – 5 Maki Rock Roll (rebozados) – 4 Manhatan – 4 Woodstock</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$2050</span>
+                        <span><strong>L</strong> - 32 PIEZAS REBOZADAS Y ESPECIALES</span>
+                        <span style="padding-top: 0.3em">6 Miami Rock Roll – 6 New York Roll (rebozados) – 6 Maki Rock Roll (rebozados) – 5 Alabama Rock Roll (rebozados) – 4 Manhatan – 6 Woodstock</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$2560</span>
+                        <span><strong>XL</strong> - 40 PIEZAS REBOZADAS Y ESPECIALES</span>
+                        <span style="padding-top: 0.3em">6 Miami Rock Roll – 8 New York Roll (rebozados) – 8 Maki Rock Roll (rebozados) – 6 Alabama Rock Roll (rebozados) – 4 Manhatan – 6 Woodstock – 2 Geisha Srack</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$3200</span>
+                        <span><strong>XXL</strong> - 50 PIEZAS REBOZADAS Y ESPECIALES</span>
+                        <span style="padding-top: 0.3em">8 Miami Rock Roll – 8 New York Roll (rebozados) – 8 Maki Rock Roll (rebozados) – 8 Alabama Rock Roll (rebozados) – 3 Manhatan – 3 Summer Shrimp – 8 Woodstock – 4 Geisha Srack</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Combo Hendrix-->
+        <section class="centrado en-columna hendrix2" id="hendrix">
+            <div>
+                <div class="centrado-horizontal contenedor-combo combo_hendrix">
+                </div>
+
+                <div class="indentado-32 indentado-32-derecha">
+                    <div class="h1-con-precio">
+                        <span>· COMBO HENDRIX ·</span>
+                    </div>
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$750</span>
+                        <span><strong>S</strong> - 12 PIEZAS SALMÓN Y LANGOSTINOS</span>
+                        <span style="padding-top: 0.3em">1 Niguiri – 1 Sashimi – 3 New York con Phila – 2 Alabama Roll – 3 Miami Roll – 2 Shrimp Palta</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$1500</span>
+                        <span><strong>M</strong> - 24 PIEZAS SALMÓN Y LANGOSTINOS</span>
+                        <span style="padding-top: 0.3em">2 Niguiris – 2 Sashimis – 2 Geishas – 4 New York con Phila – 4 Alabama Roll – 4 Miami Roll – 4 Liverpool Roll – 2 Shrimp Palta</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$2000</span>
+                        <span><strong>L</strong> - 32 PIEZAS SALMÓN Y LANGOSTINOS</span>
+                        <span style="padding-top: 0.3em">6 Miami Rock Roll – 6 New York Roll (rebozados) – 6 Maki Rock Roll (rebozados) – 5 Alabama Rock Roll (rebozados) – 4 Manhatan – 6 Woodstock</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$2500</span>
+                        <span><strong>XL</strong> - 40 PIEZAS SALMÓN Y LANGOSTINOS</span>
+                        <span style="padding-top: 0.3em">3 Niguiris – 3 Sashimis – 3 Geishas – 3 Niguiris Langostino – 3 Geisha Langostino – 5 New York con Phila – 5 Alabama Roll – 5 Miami Roll – 5 Liverpool Roll – 5 Shrimp Palta</span>
+                    </div>
+                    <hr>
+
+                    <div class="columnas en-columna margenes-items-menu">
+                        <span class="span-con-precio">$3125</span>
+                        <span><strong>XXL</strong> - 50 PIEZAS SALMÓN Y LANGOSTINOS</span>
+                        <span style="padding-top: 0.3em">4 Niguiris – 4 Sashimis – 4 Geishas – 3 Niguiris Langostino – 3 Geisha Langostino – 4 Tamago Queen – 5 New York con Phila – 4 Alabama Roll – – 4 Full Salmón – 5 Miami Roll – 6 Liverpool Roll – 5 Shrimp Paltados) – 3 Manhatan – 3 Summer Shrimp – 8 Woodstock – 4 Geisha Srack</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="columnas centrado" style="display: flex">
+            <p class="copy">© 2021 Sushi Rock</p>
+            <a href="https://www.instagram.com/sushirockbsas/" class="ig" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/sushirockcatering/" class="fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5491164965839" class="wsp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <p class="copy">© 2021 Sushi Rock</p>
+        </footer>
+
+        <a class="whatsapp" href="https://api.whatsapp.com/send?phone=5491164965839" target="_blank">
+        </a>
+    </div>
+</body>
+
+
+
+<script>
+    jQuery(document).ready(function() {
+        var offset = 400;
+        var duration = 500;
+        jQuery(window).scroll(function() {
+            if (jQuery(this).scrollTop() > offset) {
+                jQuery('.back-to-top').fadeIn(duration);
+            } else {
+                jQuery('.back-to-top').fadeOut(duration);
+            }
+        });
+
+        jQuery('.back-to-top').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({
+                scrollTop: 0
+            }, duration);
+            return false;
+        })
+    });
+
+</script>

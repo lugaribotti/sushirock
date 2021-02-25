@@ -109,6 +109,8 @@
     text-shadow: 2px 2px 4px #565656;
     text-align: center;
     text-decoration: none;
+    width: 100%;
+    line-height: 6em;
 }
 
 .header-menu {

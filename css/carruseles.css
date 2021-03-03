@@ -339,6 +339,15 @@
     .alineado-derecha {
     justify-content: flex-end;
 }
+    .fondo-titulo-promos {
+
+    min-height: 48px;
+    background-position: center;
+    width: 30%;
+    margin-bottom: -1.4em;
+    padding-top: 1em;
+    align-items: center;
+}
 
 @media all and (max-width: 400px) {
     .textoPromos {

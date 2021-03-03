@@ -138,7 +138,8 @@
     padding-top: 0.2em;
     border: 1px dashed black;
 }
-.alineado-derecha{
+
+.alineado-derecha {
     justify-content: flex-end;
 }
 
@@ -257,7 +258,7 @@
     }
 
     .promos-1 {
-        height: 160px;
+        height: 180px;
         width: 100vw;
         background-image: url("../img/promo1.png");
         background-color: #cccccc;
@@ -267,7 +268,7 @@
     }
 
     .promos-2 {
-        height: 160px;
+        height: 180px;
         width: 100vw;
         background-image: url("../img/promo2.png");
         background-color: #cccccc;
@@ -277,7 +278,7 @@
     }
 
     .promos-3 {
-        height: 160px;
+        height: 180px;
         width: 100vw;
         background-image: url("../img/promo3.png");
         background-color: #cccccc;
@@ -287,7 +288,7 @@
     }
 
     .promos-4 {
-        height: 160px;
+        height: 180px;
         width: 100vw;
         background-image: url("../img/promo4.png");
         background-color: #cccccc;
@@ -295,15 +296,57 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .promos-5 {
+        height: 180px;
+        width: 100vw;
+        background-image: url("../img/promo5.png");
+        background-color: #cccccc;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .texto-siete {
+        font-size: 12px;
+        padding-bottom: 0.25em;
+        padding-top: 0.25em;
+        justify-content: center;
+    }
+
+    .texto-ocho {
+        font-size: 12px;
+    }
+
+    .texto-nueve {
+        font-size: 10px;
+    }
+
+    .precio-recuadro {
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    margin-top: 0.5em;
+    padding-right: 0.75em;
+    padding-left: 0.75em;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    border: 1px dashed black;
+}
+    .al-50{
+        width: 70%;
+    }
+    .alineado-derecha {
+    justify-content: flex-end;
 }
 
 @media all and (max-width: 400px) {
     .textoPromos {
         display: flex;
         flex-direction: column;
-        justify-self: center;
-        align-content: center;
-        min-height: 150px;
-        height: 150px;
+        justify-self: end;
+        align-content: flex-end;
+        min-height: 96px;
+        height: 96px;
     }
 }

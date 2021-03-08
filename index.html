@@ -53,7 +53,7 @@
                                 <li><a href="nuestro_menu.html#postres1">POSTRES</a></li>
                             </ul>
                         </li>
-                        <li><a href="index.html#promociones1">PROMOS</a>
+                        <li><a href="index.html#nuestras-promos">PROMOS</a>
                         </li>
                         <li><a href="nuestros_combos.html">COMBOS</a>
                             <ul class="dropdown">
@@ -80,7 +80,7 @@
             <ul class="dropdown-mobile" style="margin-left: 0">
                 <li><a href="nuestro_menu.html">MENU</a></li>
                 <li><a href="index.html#combos1">COMBOS</a></li>
-                <li><a href="index.html#promociones1">PROMOS</a></li>
+                <li><a href="index.html#nuestras-promos">PROMOS</a></li>
                 <li><a href="index.html#box1">SUSHI BOX</a></li>
                 <li><a href="index.html#contacto1">PEDIDOS</a></li>
             </ul>
@@ -125,7 +125,7 @@
         </section>
 
         <!-- slider promos-->
-        <section class="centrado en-columna nuestras-promos">
+        <section class="centrado en-columna nuestras-promos" id="nuestras-promos">
             <p class="promociones2" id="promociones1">· DESCUBRÍ NUESTRAS PROMOCIONES ·</p>
             <hr style="width: 80%">
             <div>
@@ -398,26 +398,6 @@
 
 
 <script>
-    jQuery(document).ready(function() {
-        var offset = 400;
-        var duration = 500;
-        jQuery(window).scroll(function() {
-            if (jQuery(this).scrollTop() > offset) {
-                jQuery('.back-to-top').fadeIn(duration);
-            } else {
-                jQuery('.back-to-top').fadeOut(duration);
-            }
-        });
-
-        jQuery('.back-to-top').click(function(event) {
-            event.preventDefault();
-            jQuery('html, body').animate({
-                scrollTop: 0
-            }, duration);
-            return false;
-        })
-    });
-
     $(document).ready(function() {
         $(".owl-promo").owlCarousel({
             items: 1,
@@ -429,7 +409,6 @@
             center: true,
             dotsContainer: '#promo-puntitos',
             autoplayHoverPause: true,
-            autoplayTimeout: 5000,
             slideSpeed: 2000,
             paginationSpeed: 2000,
             autoplaySpeed: 2000,
@@ -445,15 +424,37 @@
             center: true,
             dotsContainer: '#publicidad-puntitos',
             autoplayHoverPause: true,
-            autoplayTimeout: 5000,
             slideSpeed: 2000,
             paginationSpeed: 2000,
-            autoplaySpeed: 2000
+            autoplaySpeed: 2000,
         });
 
-        $('html, body').animate({
-            scrollTop: 0
-        }, 800);
+        $(".owl-publicidad").trigger('play.owl.autoplay');
+
+        if (!window.location.hash) {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 800);
+        }
+
+        var offset = 400;
+        var duration = 500;
+
+        $(window).scroll(function() {
+            if (jQuery(this).scrollTop() > offset) {
+                jQuery('.back-to-top').fadeIn(duration);
+            } else {
+                jQuery('.back-to-top').fadeOut(duration);
+            }
+        });
+
+        $('.back-to-top').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({
+                scrollTop: 0
+            }, duration);
+            return false;
+        });
     });
 
 </script>

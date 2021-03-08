@@ -2,6 +2,10 @@
     padding-top: 80px;
 }
 
+#nuestras-promos:target {
+    padding-top: 80px;
+}
+
 .contacto2:before {
     display: block;
     content: " ";

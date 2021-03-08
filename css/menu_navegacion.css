@@ -133,7 +133,7 @@
     height: 100%;
     background-image: url(../img/fondo-menu-mbl.png);
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-color: #4B484550;
 }
 

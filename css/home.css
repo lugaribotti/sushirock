@@ -2,22 +2,11 @@
     padding-top: 80px;
 }
 
-#nuestras-promos:target {
-    padding-top: 80px;
-}
-
-.contacto2:before {
-    display: block;
-    content: " ";
-    margin-top: -80px;
-    height: 80px;
-    visibility: hidden;
-}
-
-.promociones2:before {
+/*.promociones2:before {
     display: block;
     content: " ";
     margin-top: -200px;
     height: 200px;
     visibility: hidden;
-}
+}*/
+

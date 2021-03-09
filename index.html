@@ -81,7 +81,7 @@
                 <li><a href="nuestro_menu.html">MENU</a></li>
                 <li><a href="index.html#combos1">COMBOS</a></li>
                 <li><a href="index.html#nuestras-promos">PROMOS</a></li>
-                <li><a href="index.html#box1">SUSHI BOX</a></li>
+                <li><a href="index.html#sushi-rockbox">SUSHI BOX</a></li>
                 <li><a href="index.html#contacto1">PEDIDOS</a></li>
             </ul>
         </nav>
@@ -209,19 +209,19 @@
 
             <div class="centrado-horizontal contenedor-combo">
                 <div class="centrado imagen-menu">
-                    <a class="un-boton">NUESTRO MENÚ</a>
+                    <a class="un-boton" href="nuestro_menu.html">NUESTRO MENÚ</a>
                 </div>
             </div>
 
             <div class="centrado-horizontal contenedor-combo">
                 <div class="centrado imagen-combo">
-                    <a class="un-boton">NUESTROS COMBOS</a>
+                    <a class="un-boton" href="nuestros_combos.html">NUESTROS COMBOS</a>
                 </div>
             </div>
         </section>
 
         <!-- slidersushiRock-->
-        <section class="centrado en-columna">
+        <section class="centrado en-columna" id="sushi-rockbox">
 
 
             <div class="rockbox"></div>
@@ -431,11 +431,33 @@
 
         $(".owl-publicidad").trigger('play.owl.autoplay');
 
-        if (!window.location.hash) {
-            $('html, body').animate({
-                scrollTop: 0
-            }, 800);
+        function scrollOnHashChange() {
+            const rutas = [
+                '#sushi-rockbox',
+                '#nuestras-promos',
+                '#promos1',
+                '#combos1',
+            ];
+
+            const scrollTop = $(window).scrollTop() - 80;
+
+            if (!window.location.hash) {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 800);
+            } else if (rutas.includes(window.location.hash)) {
+                $('html, body').animate({
+                    scrollTop
+                }, 800);
+
+                window.location.hash = '##';
+            }
+
+            $('#menu-mobile').prop("checked", false);
         }
+
+        scrollOnHashChange();
+        window.addEventListener("hashchange", scrollOnHashChange, false);
 
         var offset = 400;
         var duration = 500;

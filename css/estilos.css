@@ -151,15 +151,6 @@ centrado-horizontal {
     align-items: center;
 }
 
-/*.contacto2:before {
-    display: block;
-    content: " ";
-    margin-top: -80px auto;
-    height: 80px;
-    visibility: hidden;
-}*/
-
-
 @media (max-width: 600px) {
     body {
         font-size: 12px;

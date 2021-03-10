@@ -164,9 +164,17 @@
     font-weight: 600;
     color: #a5181b;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-top: 2em;
-    margin-bottom: 0.5em;
+    align-items: center;
+}
+.h1-centrado {
+    font-size: 18px;
+    font-weight: 600;
+    color: #a5181b;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
     align-items: center;
 }
 
@@ -174,7 +182,7 @@
     font-size: 18px;
     font-weight: 500;
     color: #a5181b;
-    margin-right: 1em;
+    line-height: 1.6em;
 }
 
 .entradas2:before {
@@ -290,7 +298,6 @@
 
     .span-con-precio {
         font-size: 16px;
-        text-align: center;
     }
 
     .al-50 {

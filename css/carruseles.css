@@ -222,12 +222,12 @@
 
 .rockbox {
     width: 100%;
-    min-height: calc(100vw / 4);
-    margin-bottom: 0.75em;
-    margin-top: 0.5em;
+    min-height: calc(100vw / 3.7);
+    margin-bottom: 0.5em;
+    margin-top: 1em;
     margin-left: 1.5em;
     margin-right: 1.5em;
-    background-image: url(../img/sushirockbox_gif.gif);
+    background-image: url(../img/SUSHI-BOX.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -323,39 +323,42 @@
     }
 
     .precio-recuadro {
-    font-size: 12px;
-    font-weight: 500;
-    color: black;
-    margin-top: 0.5em;
-    padding-right: 0.75em;
-    padding-left: 0.75em;
-    padding-bottom: 0.2em;
-    padding-top: 0.2em;
-    border: 1px dashed black;
-}
-    .al-50{
+        font-size: 12px;
+        font-weight: 500;
+        color: black;
+        margin-top: 0.5em;
+        padding-right: 0.75em;
+        padding-left: 0.75em;
+        padding-bottom: 0.2em;
+        padding-top: 0.2em;
+        border: 1px dashed black;
+    }
+
+    .al-50 {
         width: 70%;
     }
+
     .alineado-derecha {
-    justify-content: flex-end;
-}
+        justify-content: flex-end;
+    }
+
     .fondo-titulo-promos {
 
-    min-height: 48px;
-    background-position: center;
-    width: 30%;
-    margin-bottom: -1.4em;
-    padding-top: 1em;
-    align-items: center;
-}
-
-@media all and (max-width: 400px) {
-    .textoPromos {
-        display: flex;
-        flex-direction: column;
-        justify-self: end;
-        align-content: flex-end;
-        min-height: 96px;
-        height: 96px;
+        min-height: 48px;
+        background-position: center;
+        width: 30%;
+        margin-bottom: -1.4em;
+        padding-top: 1em;
+        align-items: center;
     }
-}
+
+    @media all and (max-width: 400px) {
+        .textoPromos {
+            display: flex;
+            flex-direction: column;
+            justify-self: end;
+            align-content: flex-end;
+            min-height: 96px;
+            height: 96px;
+        }
+    }

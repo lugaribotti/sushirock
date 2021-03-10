@@ -102,15 +102,14 @@
     transition: all 1.2s;
 }
 
-.btn-sin-recuadro > a {
+a.btn-sin-recuadro {
     font-weight: bold;
     font-size: 14px;
     color: white;
     text-shadow: 2px 2px 4px #565656;
     text-align: center;
     text-decoration: none;
-    width: 100%;
-    line-height: 6em;
+    /*line-height: 6em;*/
 }
 
 .header-menu {
@@ -261,7 +260,10 @@
     .postre {
         width: 48%;
     }
+
 }
+
+
 
 @media all and (max-width: 400px) {
 

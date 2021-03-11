@@ -222,7 +222,7 @@
 
 .rockbox {
     width: 100%;
-    min-height: calc(100vw / 3.7);
+    min-height: calc(100vw / 3.2);
     margin-bottom: 0.5em;
     margin-top: 1em;
     margin-left: 1.5em;

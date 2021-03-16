@@ -222,20 +222,98 @@
 
 .rockbox {
     width: 100%;
-    min-height: calc(100vw / 3.2);
+    min-width: calc(100vw / 2.74);
     margin-bottom: 0.5em;
     margin-top: 1em;
     margin-left: 1.5em;
     margin-right: 1.5em;
-    background-image: url(../img/SUSHI-BOX.gif);
+    background-image: url(../img/Sushi-rock-box.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+}
+
+.rockbox > .rockbox-container-exterior-a {
+    height: 50%;
+    position: relative;
+}
+
+.rockbox > .rockbox-container-exterior-a > .rockbox-container-interior-a {
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+    background-color: #af181b;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    justify-content: center;
+    padding: 0.75em;
+    border-radius: .25em;
+    text-align: center;
+    box-shadow: 1px 1px 10px #5a5a5a;
+}
+
+.rockbox > .rockbox-container-exterior-a > .logo-rojo {
+    position: absolute;
+    left: 0;
+    top: 2%
+}
+
+.rockbox > .rockbox-container-exterior-a > .logo-rojo > img {
+    width: 6em;
+}
+
+.rockbox > .rockbox-container-b {
+    position: absolute;
+    top: 33%;
+    right: 0;
+    width: 25%;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.rockbox > .rockbox-container-b .rojo {
+    color: #af181b
+}
+
+@media all and (max-width: 800px) {
+    .rockbox > .rockbox-container-exterior-a > .rockbox-container-interior-a {
+        font-size: 16px;
+        bottom: 10%;
+    }
+
+    .rockbox > .rockbox-container-b {
+        font-size: 13px;
+        top: 35%;
+    }
 
 }
 
-
 @media all and (max-width: 600px) {
+    .rockbox > .rockbox-container-exterior-a > .rockbox-container-interior-a {
+        background-color: #af181bdd;
+        margin: 0;
+        top: -1em;
+        left: 0;
+        position: relative;
+    }
+
+    .rockbox > .rockbox-container-exterior-a {
+        width: 100%;
+    }
+
+    .rockbox > .rockbox-container-b {
+        font-size: 13px;
+        top: auto;
+        bottom: 1.5em;
+        width: 100vw;
+    }
+
+    .rockbox > .rockbox-container-exterior-a > .logo-rojo {
+        top: -20%;
+    }
+
     .contenedor-promos {
         padding-left: 0;
         padding-right: 0;
@@ -351,14 +429,15 @@
         padding-top: 1em;
         align-items: center;
     }
+}
 
-    @media all and (max-width: 400px) {
-        .textoPromos {
-            display: flex;
-            flex-direction: column;
-            justify-self: end;
-            align-content: flex-end;
-            min-height: 96px;
-            height: 96px;
-        }
+@media all and (max-width: 400px) {
+    .textoPromos {
+        display: flex;
+        flex-direction: column;
+        justify-self: end;
+        align-content: flex-end;
+        min-height: 96px;
+        height: 96px;
     }
+}

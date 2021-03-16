@@ -220,7 +220,11 @@
     align-items: center;
 }
 
-.rockbox {
+.rockbox-mobile {
+    display: none;
+}
+
+.rockbox-desktop {
     width: 100%;
     min-width: calc(100vw / 2.74);
     margin-bottom: 0.5em;
@@ -233,12 +237,12 @@
     background-size: 100%;
 }
 
-.rockbox > .rockbox-container-exterior-a {
+.rockbox-desktop > .rockbox-desktop-container-exterior-a {
     height: 50%;
     position: relative;
 }
 
-.rockbox > .rockbox-container-exterior-a > .rockbox-container-interior-a {
+.rockbox-desktop > .rockbox-desktop-container-exterior-a > .rockbox-desktop-container-interior-a {
     position: absolute;
     bottom: 0%;
     left: 10%;
@@ -253,17 +257,17 @@
     box-shadow: 1px 1px 10px #5a5a5a;
 }
 
-.rockbox > .rockbox-container-exterior-a > .logo-rojo {
+.rockbox-desktop > .rockbox-desktop-container-exterior-a > .logo-rojo {
     position: absolute;
     left: 0;
     top: 2%
 }
 
-.rockbox > .rockbox-container-exterior-a > .logo-rojo > img {
+.rockbox-desktop > .rockbox-desktop-container-exterior-a > .logo-rojo > img {
     width: 6em;
 }
 
-.rockbox > .rockbox-container-b {
+.rockbox-desktop > .rockbox-desktop-container-b {
     position: absolute;
     top: 33%;
     right: 0;
@@ -273,17 +277,17 @@
     font-weight: 500;
 }
 
-.rockbox > .rockbox-container-b .rojo {
+.rockbox-desktop > .rockbox-desktop-container-b .rojo {
     color: #af181b
 }
 
 @media all and (max-width: 800px) {
-    .rockbox > .rockbox-container-exterior-a > .rockbox-container-interior-a {
+    .rockbox-desktop > .rockbox-desktop-container-exterior-a > .rockbox-desktop-container-interior-a {
         font-size: 16px;
         bottom: 10%;
     }
 
-    .rockbox > .rockbox-container-b {
+    .rockbox-desktop > .rockbox-desktop-container-b {
         font-size: 13px;
         top: 35%;
     }
@@ -291,31 +295,34 @@
 }
 
 @media all and (max-width: 600px) {
-    .rockbox {
-        background-color: black;
+    .rockbox-desktop {
+        display: none;
     }
 
-    .rockbox > .rockbox-container-exterior-a > .rockbox-container-interior-a {
-        background-color: #af181bdd;
-        margin: 0;
-        top: -1em;
-        left: 0;
-        position: relative;
+    .rockbox-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1em 0 1em 0;
+        margin: 2em 0 2em 0;
+        background-image: url(../img/Sushi-rock-box.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: white;
     }
 
-    .rockbox > .rockbox-container-exterior-a {
-        width: 100%;
+    .rockbox-mobile-container {
+        font-size: 22px;
+        background-color: #af181bcc;
+        padding: 0.5em;
+        border-radius: .25em;
+        box-shadow: 1px 1px 10px #5a5a5a;
     }
 
-    .rockbox > .rockbox-container-b {
-        font-size: 13px;
-        top: auto;
-        bottom: 1.5em;
-        width: 100vw;
-    }
-
-    .rockbox > .rockbox-container-exterior-a > .logo-rojo {
-        top: -20%;
+    .rockbox-mobile .rojo {
+        color: #af181b
     }
 
     .contenedor-promos {
@@ -443,13 +450,14 @@
         align-content: flex-end;
         min-height: 96px;
         height: 96px;
+
     }
 
-    .rockbox {
+    .rockbox-desktop {
         background-repeat: repeat;
     }
 
-    .rockbox > .rockbox-container-exterior-a {
+    .rockbox-desktop > .rockbox-desktop-container-exterior-a {
         width: 100%;
         position: absolute;
         top: 12%;

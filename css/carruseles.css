@@ -291,6 +291,10 @@
 }
 
 @media all and (max-width: 600px) {
+    .rockbox {
+        background-color: black;
+    }
+
     .rockbox > .rockbox-container-exterior-a > .rockbox-container-interior-a {
         background-color: #af181bdd;
         margin: 0;
@@ -439,5 +443,15 @@
         align-content: flex-end;
         min-height: 96px;
         height: 96px;
+    }
+
+    .rockbox {
+        background-repeat: repeat;
+    }
+
+    .rockbox > .rockbox-container-exterior-a {
+        width: 100%;
+        position: absolute;
+        top: 12%;
     }
 }

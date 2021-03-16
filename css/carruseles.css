@@ -313,6 +313,10 @@
         color: white;
     }
 
+    .rockbox-mobile img {
+        width: 3em;
+    }
+
     .rockbox-mobile-container {
         font-size: 22px;
         background-color: #af181bcc;

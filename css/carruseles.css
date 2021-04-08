@@ -127,12 +127,13 @@
 }
 
 .texto-mini {
-    font-size: 8px;
+    font-size: 9px;
     color: white;
     margin: 0;
     margin-bottom: 2em;
     padding: 0;
     justify-content: flex-end;
+    text-shadow:2px 2px 4px black ;
 }
 
 .precio-recuadro {

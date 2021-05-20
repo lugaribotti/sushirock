@@ -241,6 +241,10 @@ a.btn-sin-recuadro {
 
 }
 
+.divisor{
+    display: none;
+}
+
 /*.puntitos::after {
     content: ".................................................................";
     background-image: url(../img/puntitos.png);
@@ -308,6 +312,9 @@ a.btn-sin-recuadro {
 
     .columnas {
         display: block;
+    }
+    .divisor{
+        display: flex;
     }
 
 }

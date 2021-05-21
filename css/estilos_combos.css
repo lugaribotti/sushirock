@@ -112,11 +112,3 @@
 .indentado-32-derecha {
     padding-right: 32px;
 }
-
-@media (max-width: 600px) {
-    .combo_santana {
-        min-height: calc(100vw / 2.6);
-        margin-left: 0;
-        margin-right: 0;
-    }
-}

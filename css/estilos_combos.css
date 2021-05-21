@@ -8,7 +8,7 @@
     margin-bottom: 1em;
 }
 .combo_sugerencia_chef {
-    margin-top: 3em;
+    margin-top: 1em;
     background-image: url(../img/sugerencia_cheff.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -111,4 +111,14 @@
 
 .indentado-32-derecha {
     padding-right: 32px;
+}
+
+.titulo-con-precio {
+    font-size: 18px;
+    font-weight: 600;
+    color: #a5181b;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    align-items: center;
 }

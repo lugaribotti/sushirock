@@ -76,18 +76,28 @@
     background-image: url(../img/Postres.png);
 }
 
+.sushi-vegetariano {
+    background-image: url(../img/Vegetarianos-2.png);
+}
+
+.bebidas{
+    background-image: url(../img/bebitdas-2.png);
+}
+
 .entradas,
 .sushis,
 .sushi-especiales,
 .sushi-salads,
 .woks-platos,
-.postre {
+.postre,
+.sushi-vegetariano,
+.bebidas {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     opacity: 0.6;
-    width: 32%;
-    height: calc(32vw / 2.2);
+    width: 24%;
+    height: calc(25vw / 2.2);
     margin: 4px;
 }
 
@@ -96,7 +106,9 @@
 .sushi-especiales:hover,
 .sushi-salads:hover,
 .woks-platos:hover,
-.postre:hover {
+.postre:hover,
+.sushi-vegetariano:hover,
+.bebidas:hover {
     background-size: 110%;
     opacity: 1;
     transition: all 1.2s;
@@ -232,6 +244,22 @@ a.btn-sin-recuadro {
     visibility: hidden;
 }
 
+.vegetarianos2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+
+.bebidas2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+
 .en-2columnas > div {
     display: flex;
     flex-direction: row;
@@ -261,7 +289,9 @@ a.btn-sin-recuadro {
     .sushi-especiales,
     .sushi-salads,
     .woks-platos,
-    .postre {
+    .postre,
+    .sushi-vegetariano,
+    .bebidas {
         width: 48%;
     }
 
@@ -276,7 +306,9 @@ a.btn-sin-recuadro {
     .sushi-especiales,
     .sushi-salads,
     .woks-platos,
-    .postre {
+    .postre,
+    .sushi-vegetariano,
+    .bebidas {
         width: 100%;
         height: calc(40vw/2.2);
     }

@@ -311,7 +311,14 @@
                         </div>
                         <div style="flex: 1">
                             <p class="bullet">· Mandanos un Whatsapp</p>
-                            <p><a href="https://api.whatsapp.com/send?phone=5491164965839" class="bullet click" target="_blank"> <i class="fas fa-hand-point-right"></i> Click aquí</a></p>
+                            <p>
+                                <a href="https://api.whatsapp.com/send?phone=5491164965839"
+                                   onClick="gtag('event', 'Clic Boton WhatsApp', { event_category: 'Boton WhatsApp', event_action: 'Clic'});"
+                                   class="bullet click"
+                                   target="_blank">
+                                    <i class="fas fa-hand-point-right"></i> Click aquí
+                                </a>
+                            </p>
                         </div>
                     </div>
 
@@ -448,11 +455,15 @@
             <p class="copy">© 2021 Sushi Rock</p>
             <a href="https://www.instagram.com/sushirockbsas/" class="ig" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.facebook.com/sushirockcatering/" class="fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=5491164965839" class="wsp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5491164965839" class="wsp" target="_blank"
+               onClick="gtag('event', 'Clic Boton WhatsApp', { event_category: 'Boton WhatsApp', event_action: 'Clic'});">
+                <i class="fab fa-whatsapp"></i>
+            </a>
             <p class="copy">© 2021 Sushi Rock</p>
         </footer>
 
-        <a class="whatsapp" href="https://api.whatsapp.com/send?phone=5491164965839" target="_blank">
+        <a class="whatsapp" href="https://api.whatsapp.com/send?phone=5491164965839" target="_blank"
+           onClick="gtag('event', 'Clic Boton WhatsApp', { event_category: 'Boton WhatsApp', event_action: 'Clic'});">
         </a>
     </div>
 

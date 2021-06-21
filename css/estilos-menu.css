@@ -87,6 +87,8 @@
 .entradas,
 .sushis,
 .sushi-especiales,
+.rebozados,
+.vegetariano,
 .sushi-salads,
 .woks-platos,
 .postre,
@@ -104,6 +106,8 @@
 .entradas:hover,
 .sushis:hover,
 .sushi-especiales:hover,
+.rebozados:hover,
+.vegetariano:hover,
 .sushi-salads:hover,
 .woks-platos:hover,
 .postre:hover,
@@ -251,6 +255,15 @@ a.btn-sin-recuadro {
     height: 80px;
     visibility: hidden;
 }
+
+.rebozados2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+
 
 .bebidas2:before {
     display: block;

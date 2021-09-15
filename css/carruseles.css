@@ -209,6 +209,15 @@
     background-size: cover;
 }
 
+.promos-6 {
+    height: 250px;
+    background-image: url("../img/promo6.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .textoPromos {
     display: flex;
     flex-direction: column;

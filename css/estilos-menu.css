@@ -286,6 +286,48 @@ a.btn-sin-recuadro {
     display: none;
 }
 
+.imagen-promo1{
+    background-image: url(../img/Promo1_chica.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100vw / 7);
+    margin-bottom: 0.2em;
+    margin-top: 1em;
+}
+.imagen-promo2{
+    background-image: url(../img/Promo2_chica.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100vw / 7);
+    margin-bottom: 0.2em;
+    margin-top: 1em;
+}
+.imagen-promo3{
+    background-image: url(../img/Promo3_chica.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100vw / 7);
+    margin-bottom: 0.2em;
+    margin-top: 1em;
+}
+
+.imagen-promo4{
+    background-image: url(../img/Promo4_chica.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100vw / 7);
+    margin-bottom: 0.2em;
+    margin-top: 1em;
+}
+
 /*.puntitos::after {
     content: ".................................................................";
     background-image: url(../img/puntitos.png);

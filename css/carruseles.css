@@ -165,8 +165,8 @@
 }
 
 .promos-1 {
-    height: 250px;
-    background-image: url("../img/promo1.png");
+    height: 300px;
+    background-image: url("../img/promo1_nueva.png");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -174,8 +174,8 @@
 }
 
 .promos-2 {
-    height: 250px;
-    background-image: url("../img/promo2.png");
+    height: 300px;
+    background-image: url("../img/promo2_nueva.png");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -183,8 +183,8 @@
 }
 
 .promos-3 {
-    height: 250px;
-    background-image: url("../img/promo3.png");
+    height: 300px;
+    background-image: url("../img/promo3_nueva.png");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -192,8 +192,8 @@
 }
 
 .promos-4 {
-    height: 250px;
-    background-image: url("../img/promo4.png");
+    height: 300px;
+    background-image: url("../img/promo4_nueva.png");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -201,8 +201,8 @@
 }
 
 .promos-5 {
-    height: 250px;
-    background-image: url("../img/promo5.png");
+    height: 300px;
+    background-image: url("../img/promo5_nueva.png");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -210,8 +210,8 @@
 }
 
 .promos-6 {
-    height: 250px;
-    background-image: url("../img/promo6.png");
+    height: 300px;
+    background-image: url("../img/promo6_nueva.png");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -227,7 +227,7 @@
 }
 
 .fondo-titulo-promos {
-    background-image: url(../img/sushi-titulos-promos.png);
+    background-image: url(../img/fondo_rojo_promos.png);
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 48px;
@@ -369,9 +369,9 @@
     }
 
     .promos-1 {
-        height: 180px;
+        height: 150px;
         width: 100vw;
-        background-image: url("../img/promo1.png");
+        background-image: url("../img/promo1_nueva.png");
         background-color: #cccccc;
         background-position: center;
         background-repeat: no-repeat;
@@ -379,9 +379,9 @@
     }
 
     .promos-2 {
-        height: 180px;
+        height: 150px;
         width: 100vw;
-        background-image: url("../img/promo2.png");
+        background-image: url("../img/promo2_nueva.png");
         background-color: #cccccc;
         background-position: center;
         background-repeat: no-repeat;
@@ -389,9 +389,9 @@
     }
 
     .promos-3 {
-        height: 180px;
+        height: 150px;
         width: 100vw;
-        background-image: url("../img/promo3.png");
+        background-image: url("../img/promo3_nueva.png");
         background-color: #cccccc;
         background-position: center;
         background-repeat: no-repeat;
@@ -399,9 +399,9 @@
     }
 
     .promos-4 {
-        height: 180px;
+        height: 150px;
         width: 100vw;
-        background-image: url("../img/promo4.png");
+        background-image: url("../img/promo4_nueva.png");
         background-color: #cccccc;
         background-position: center;
         background-repeat: no-repeat;
@@ -409,9 +409,9 @@
     }
 
     .promos-5 {
-        height: 180px;
+        height: 150px;
         width: 100vw;
-        background-image: url("../img/promo5.png");
+        background-image: url("../img/promo5_nueva.png");
         background-color: #cccccc;
         background-position: center;
         background-repeat: no-repeat;
@@ -419,9 +419,9 @@
     }
 
     .promos-6 {
-        height: 180px;
+        height: 150px;
         width: 100vw;
-        background-image: url("../img/promo6.png");
+        background-image: url("../img/promo6_nueva.png");
         background-color: #cccccc;
         background-position: center;
         background-repeat: no-repeat;

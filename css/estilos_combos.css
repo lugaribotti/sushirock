@@ -114,6 +114,7 @@
 }
 
 .titulo-con-precio {
+    text-align: center;
     font-size: 18px;
     font-weight: 600;
     color: #a5181b;
@@ -121,4 +122,5 @@
     justify-content: flex-start;
     margin-top: 1em;
     align-items: center;
+    
 }

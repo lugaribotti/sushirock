@@ -32,6 +32,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.publicidad-4 {
+    background-image: url("../img/inicio_4.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .publicidad.carrusel {
     clear: none;

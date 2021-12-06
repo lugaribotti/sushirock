@@ -90,6 +90,7 @@
 .vegetariano,
 .sushi-salads,
 .woks-platos,
+.ceviches,
 .postre,
 .sushi-vegetariano,
 .bebidas {
@@ -109,6 +110,7 @@
 .vegetariano:hover,
 .sushi-salads:hover,
 .woks-platos:hover,
+.ceviches:hover,
 .postre:hover,
 .sushi-vegetariano:hover,
 .bebidas:hover {
@@ -232,6 +234,14 @@ a.btn-sin-recuadro {
 }
 
 .woks2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
+
+.ceviches2:before {
     display: block;
     content: " ";
     margin-top: -80px;

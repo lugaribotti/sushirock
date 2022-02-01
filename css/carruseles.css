@@ -133,6 +133,22 @@
     padding: 0;
 }
 
+.texto-diez {
+    font-size: 38px;
+    font-weight: 400;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.texto-once {
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .texto-mini {
     font-size: 9px;
     color: white;
@@ -306,6 +322,17 @@
     color: #af181b
 }
 
+.trabaja-desktop {
+    background-image: url("../img/Trabaja-con-nosotros.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 2em 0;
+}
+
+
 @media all and (max-width: 800px) {
     .rockbox-desktop > .rockbox-desktop-container-exterior-a > .rockbox-desktop-container-interior-a {
         font-size: 16px;
@@ -450,6 +477,14 @@
         font-size: 10px;
     }
 
+    .texto-diez {
+        font-size: 18px;
+    }
+
+    .texto-once {
+        font-size: 15px;
+    }
+
     .precio-recuadro {
         font-size: 12px;
         font-weight: 500;
@@ -501,4 +536,5 @@
         position: absolute;
         top: 12%;
     }
+
 }

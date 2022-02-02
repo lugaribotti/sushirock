@@ -126,10 +126,10 @@
 
 .boton-form {
     font-size: 16px;
-    padding: 0.75em;
     color: white;
     text-shadow: 2px 2px 4px #565656;
     text-decoration: none;
+    margin-top: 0.5em;
 }
 
 @media all and (max-width: 600px) {
@@ -160,7 +160,6 @@
     }
     .boton-form {
         font-size: 12px;
-        margin: 0;
-        padding: 0;
+        margin-top: 0;
     }
 }

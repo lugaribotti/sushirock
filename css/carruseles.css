@@ -32,6 +32,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .publicidad-4 {
     background-image: url("../img/inicio_4.png");
     background-color: #cccccc;
@@ -84,7 +85,6 @@
     text-shadow: 2px 2px 4px #565656;
     color: white;
     margin: 0;
-
 }
 
 .texto-cinco {
@@ -134,7 +134,7 @@
 }
 
 .texto-diez {
-    font-size: 38px;
+    font-size: 26px;
     font-weight: 400;
     color: white;
     margin-top: 0;
@@ -142,7 +142,7 @@
 }
 
 .texto-once {
-    font-size: 35px;
+    font-size: 23px;
     font-weight: 400;
     color: white;
     margin-top: 0;
@@ -156,7 +156,7 @@
     margin-bottom: 2em;
     padding: 0;
     justify-content: flex-end;
-    text-shadow:2px 2px 4px black ;
+    text-shadow: 2px 2px 4px black;
 }
 
 .precio-recuadro {
@@ -278,12 +278,12 @@
     background-size: 100%;
 }
 
-.rockbox-desktop > .rockbox-desktop-container-exterior-a {
+.rockbox-desktop>.rockbox-desktop-container-exterior-a {
     height: 50%;
     position: relative;
 }
 
-.rockbox-desktop > .rockbox-desktop-container-exterior-a > .rockbox-desktop-container-interior-a {
+.rockbox-desktop>.rockbox-desktop-container-exterior-a>.rockbox-desktop-container-interior-a {
     position: absolute;
     bottom: 0%;
     left: 10%;
@@ -298,17 +298,17 @@
     box-shadow: 1px 1px 10px #5a5a5a;
 }
 
-.rockbox-desktop > .rockbox-desktop-container-exterior-a > .logo-rojo {
+.rockbox-desktop>.rockbox-desktop-container-exterior-a>.logo-rojo {
     position: absolute;
     left: 0;
     top: 2%
 }
 
-.rockbox-desktop > .rockbox-desktop-container-exterior-a > .logo-rojo > img {
+.rockbox-desktop>.rockbox-desktop-container-exterior-a>.logo-rojo>img {
     width: 6em;
 }
 
-.rockbox-desktop > .rockbox-desktop-container-b {
+.rockbox-desktop>.rockbox-desktop-container-b {
     position: absolute;
     top: 33%;
     right: 0;
@@ -318,7 +318,7 @@
     font-weight: 500;
 }
 
-.rockbox-desktop > .rockbox-desktop-container-b .rojo {
+.rockbox-desktop>.rockbox-desktop-container-b .rojo {
     color: #af181b
 }
 
@@ -329,28 +329,24 @@
     background-size: 100%;
     margin-top: 1em;
     margin-bottom: 1em;
-    padding: 2em 0;
+    padding: 1em 0;
 }
 
-
 @media all and (max-width: 800px) {
-    .rockbox-desktop > .rockbox-desktop-container-exterior-a > .rockbox-desktop-container-interior-a {
+    .rockbox-desktop>.rockbox-desktop-container-exterior-a>.rockbox-desktop-container-interior-a {
         font-size: 16px;
         bottom: 10%;
     }
-
-    .rockbox-desktop > .rockbox-desktop-container-b {
+    .rockbox-desktop>.rockbox-desktop-container-b {
         font-size: 13px;
         top: 35%;
     }
-
 }
 
 @media all and (max-width: 600px) {
     .rockbox-desktop {
         display: none;
     }
-
     .rockbox-mobile {
         display: flex;
         flex-direction: column;
@@ -364,11 +360,9 @@
         background-size: cover;
         color: white;
     }
-
     .rockbox-mobile img {
         width: 3em;
     }
-
     .rockbox-mobile-container {
         font-size: 22px;
         background-color: #af181bcc;
@@ -376,32 +370,26 @@
         border-radius: .25em;
         box-shadow: 1px 1px 10px #5a5a5a;
     }
-
     .rockbox-mobile .rojo {
         color: #af181b
     }
-
     .contenedor-promos {
         padding-left: 0;
         padding-right: 0;
     }
-
     .textoCarrusel {
         padding-left: 0;
     }
-
-    .textoCarrusel > div {
+    .textoCarrusel>div {
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
     }
-
     .publicidad {
         justify-content: center;
         height: calc(960px / 4.75);
     }
-
     .promos-1 {
         height: 150px;
         width: 100vw;
@@ -411,7 +399,6 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     .promos-2 {
         height: 150px;
         width: 100vw;
@@ -421,7 +408,6 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     .promos-3 {
         height: 150px;
         width: 100vw;
@@ -431,7 +417,6 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     .promos-4 {
         height: 150px;
         width: 100vw;
@@ -441,7 +426,6 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     .promos-5 {
         height: 150px;
         width: 100vw;
@@ -451,7 +435,6 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     .promos-6 {
         height: 150px;
         width: 100vw;
@@ -461,30 +444,24 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     .texto-siete {
         font-size: 12px;
         padding-bottom: 0.25em;
         padding-top: 0.25em;
         justify-content: center;
     }
-
     .texto-ocho {
         font-size: 12px;
     }
-
     .texto-nueve {
         font-size: 10px;
     }
-
     .texto-diez {
         font-size: 18px;
     }
-
     .texto-once {
         font-size: 15px;
     }
-
     .precio-recuadro {
         font-size: 12px;
         font-weight: 500;
@@ -496,17 +473,13 @@
         padding-top: 0.2em;
         border: 1px dashed black;
     }
-
     .al-50 {
         width: 70%;
     }
-
     .alineado-derecha {
         justify-content: flex-end;
     }
-
     .fondo-titulo-promos {
-
         min-height: 48px;
         background-position: center;
         width: 30%;
@@ -524,17 +497,13 @@
         align-content: flex-end;
         min-height: 96px;
         height: 96px;
-
     }
-
     .rockbox-desktop {
         background-repeat: repeat;
     }
-
-    .rockbox-desktop > .rockbox-desktop-container-exterior-a {
+    .rockbox-desktop>.rockbox-desktop-container-exterior-a {
         width: 100%;
         position: absolute;
         top: 12%;
     }
-
 }

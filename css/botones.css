@@ -160,7 +160,7 @@
     }
     .boton-form {
         font-size: 12px;
-        padding-bottom: 1.5em;
-        padding-top: 0.5em;
+        margin: 0;
+        padding: 0;
     }
 }

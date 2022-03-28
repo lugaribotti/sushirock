@@ -20,8 +20,8 @@
 }
 
 .combo_santana {
-    margin-top: 3em;
-    background-image: url(../img/combo_santana.png);
+    margin-top: 0em;
+    background-image: url(../img/combo_santana_nuevo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 93%;
@@ -33,7 +33,7 @@
 
 .combo_acdc {
     margin-top: 3em;
-    background-image: url(../img/combo_ACDC.png);
+    background-image: url(../img/combo_ACDC_nuevo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 93%;
@@ -57,7 +57,7 @@
 
 .combo_hendrix {
     margin-top: 3em;
-    background-image: url(../img/combo_Hendrix.png);
+    background-image: url(../img/combo_Hendrix_nuevo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 93%;
@@ -69,7 +69,7 @@
 
 .combo_greenday {
     margin-top: 3em;
-    background-image: url(../img/Combo_GreenDay.png);
+    background-image: url(../img/Combo_GreenDay_nuevo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 93%;
